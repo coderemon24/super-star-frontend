@@ -1,0 +1,2871 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #a8237f;
+  --secondary-color: #FFD700;
+  --dark-color: #212529;
+  --light-color: #fff;
+  --title-font: 'Montserrat', sans-serif;
+  --body-font: 'Poppins', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: var(--body-font);
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+  font-weight: 100;
+}
+
+
+
+.mt-10 {
+  margin-top: 55px;
+}
+
+.mb-10 {
+  margin-bottom: 55px;
+}
+
+.ml-10 {
+  margin-left: 55px;
+}
+
+.mr-10 {
+  margin-right: 55px;
+}
+
+.mt-9 {
+  margin-top: 50px;
+}
+
+.mb-9 {
+  margin-bottom: 50px;
+}
+
+.ml-9 {
+  margin-left: 50px;
+}
+
+.mr-9 {
+  margin-right: 50px;
+}
+
+.mt-8 {
+  margin-top: 30px;
+}
+
+.mb-8 {
+  margin-bottom: 30px;
+}
+
+.ml-8 {
+  margin-left: 30px;
+}
+
+.mr-8 {
+  margin-right: 30px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+.modal {
+  overflow-y: auto !important;
+}
+
+.vision-mision .title,
+.vision-mision .short-desc {
+  text-transform: inherit;
+  text-align: center;
+}
+
+.vision-mision img {
+  text-align: center;
+  margin: 0 auto;
+  display: flow-root;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #a8237f;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #a8237f;
+}
+
+.download-e-catalogues .download-newsletter {
+  display: none;
+}
+
+.card-date {
+  color: #a8237f;
+}
+
+.btn-brand-outline {
+  color: #4a4a4a;
+  text-align: left;
+  float: left;
+  border-radius: 17px;
+  border: solid 2px #ffc80a;
+}
+
+.award {
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+}
+
+.close span {
+  float: right;
+  padding: 0px 5px 0px 0;
+  right: 0;
+  margin: -4px;
+}
+
+.fullwidth-mobile-menu {
+  padding: 0 !important;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.title {
+  color: #a8237f;
+}
+
+.search-bar-top input[type="text"] {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 5px 20px 3px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  display: none;
+  width: 100%;
+  max-width: 200px;
+}
+
+#main-banner::before {
+  position: absolute;
+  content: " ";
+  top: 130px;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  display: block;
+  z-index: 0;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 54%, rgba(0, 0, 0, 0.26) 76%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 54%, rgba(0, 0, 0, 0.26) 76%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 54%, rgba(0, 0, 0, 0.26) 76%, rgba(0, 0, 0, 0) 100%);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+76,000000+100&0+0,0.5+54,0+100 */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.mission-statement:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.mission-statement *,
+#main-banner * {
+  position: relative;
+  /* hack */
+}
+
+.title,
+.short-desc {
+  text-transform: inherit;
+  text-align: justify;
+}
+
+.carousel-control-prev {
+  left: -100px;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.carousel-control-next {
+  right: -100px;
+  overflow: hidden;
+  opacity: 1;
+}
+
+section#newsletter {
+  background-size: cover;
+  padding: 30px !important;
+}
+
+section#newsletter h2 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: var(--title-font);
+  font-weight: bold;
+  line-height: 45px;
+}
+
+section#newsletter .title {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+section#newsletter .subsForm {
+  text-align: center;
+  margin-top: 40px;
+}
+
+section#newsletter .emailinput {
+  width: 300px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+}
+
+section#newsletter ::-webkit-input-placeholder {
+  /* Edge */
+  color: #fff;
+}
+
+section#newsletter :-ms-input-placeholder {
+  /* Internet Explorer */
+  color: #fff;
+}
+
+section#newsletter ::placeholder {
+  color: #fff;
+}
+
+section#newsletter .submit-btn {
+  margin-top: 25px;
+  background: #ffc80a;
+  border-color: #ffc80a;
+  border-radius: 17px;
+  padding: 4px 28px;
+  border: none;
+  color: white;
+}
+
+footer {
+  background-color: #1e0c1d;
+}
+
+footer h6 {
+  font-family: var(--title-font);
+  font-size: 14px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+footer p,
+footer a {
+  color: #c8c8c8;
+  font-family: var(--body-font);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+footer .fab {
+  color: #c8c8c8;
+}
+
+section#mission,
+section#business-unit-products,
+section#business-into,
+section#career-benifit,
+section#AboutAwardsAchivement,
+section#vision-mission,
+section#our-products,
+section#our-brands,
+section#business-growth,
+section#awards-achivement,
+section#our-clients,
+section#news-events,
+section#newsletter {
+  padding: 70px 0;
+}
+
+.carousel-control-next .caption h1 {
+  font-size: 14px;
+}
+
+.carousel-control-next .caption h5 {
+  font-size: 12px;
+}
+
+.btn-focused {
+  color: #4a4a4a;
+  background-color: #fec93f;
+  border-color: #fec93f;
+  text-align: left;
+  float: left;
+  border-radius: 17px;
+  box-shadow: 2px 3px 15px #fec93f;
+}
+
+.visit-link {
+  color: #a8237f;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.visit-link img {
+  margin-top: -3px;
+  padding: 0px 6px;
+  width: 35px;
+}
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  margin-right: 7px;
+  margin-left: 7px;
+  border-radius: 100%;
+}
+
+.carousel-caption {
+  bottom: 170px;
+}
+
+.carousel-inner h5 {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: var(--title-font);
+}
+
+.carousel-inner h1 {
+  font-family: var(--title-font);
+  font-weight: 700;
+  text-align: left;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: initial;
+}
+
+.title {
+  line-height: initial;
+}
+
+.short-desc {
+  margin-top: 25px;
+}
+
+#our-products {
+  background-size: cover;
+}
+
+#our-products .cat-item {
+  margin: 15px 0;
+}
+
+#our-products div.title {
+  color: #ffc80a;
+  text-align: center;
+  font-family: var(--title-font);
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#our-products p.short-desc {
+  color: #fff;
+  text-align: center;
+  font-family: var(--body-font);
+  font-size: 14px;
+}
+
+#our-products img {
+  margin: 0 auto;
+  display: block;
+  width: 80px;
+}
+
+#our-products h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+#our-products h2::after {
+  content: "";
+  display: inherit;
+  margin: 10px auto;
+  width: 4px;
+  height: 27px;
+  background-color: #ffc80a;
+}
+
+#our-brands {
+  background-size: cover;
+  background: #0e1a35;
+}
+
+#our-brands .carousel-control-prev {
+  left: 0;
+}
+
+#our-brands .carousel-control-next {
+  right: 0;
+}
+
+#our-brands .cat-item {
+  margin: 15px 0;
+}
+
+#our-brands div.title {
+  color: #ffc80a;
+  text-align: center;
+  font-family: var(--title-font);
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#our-brands p.short-desc {
+  color: #fff;
+  text-align: center;
+  font-family: var(--body-font);
+  font-size: 14px;
+}
+
+#our-brands .visit-link {
+  text-align: center;
+  display: block;
+}
+
+#our-brands img.brand-logo-thumb {
+  margin: 0 auto;
+  display: block;
+}
+
+#our-brands h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+#our-brands h2::after {
+  content: "";
+  display: inherit;
+  margin: 10px auto;
+  width: 4px;
+  height: 27px;
+  background-color: #ffc80a;
+}
+
+#business-growth .large-icon {
+  margin: 0 auto;
+  display: block;
+}
+
+#business-growth .plus-icon {
+  width: 35px;
+  position: relative;
+  top: 10px;
+  float: right;
+  right: 70px;
+}
+
+#business-growth #families,
+#business-growth #employees,
+#business-growth .count {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 60px;
+  line-height: initial;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#business-growth .year {
+  font-family: var(--body-font);
+  font-size: 25px;
+  color: #a8237f;
+  text-align: center;
+}
+
+#business-growth .short-desc {
+  font-family: var(--body-font);
+  text-align: center;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-item.nav-link {
+  color: #000000;
+  font-family: var(--body-font);
+  font-weight: bolder;
+  font-size: 12px;
+  margin: 3px 5px;
+  padding: 4px;
+  max-width: 65px;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active {
+  color: #000000 !important;
+  border: solid 2px #ffc80a;
+  border-radius: 50px;
+  font-weight: bold !important;
+}
+
+.nav-link:hover {
+  font-weight: bold !important;
+}
+
+#news-events {
+  background: #fbfbfb;
+}
+
+#news-events .col-md-4 {
+  margin-bottom: 15px;
+}
+
+#awards-achivement {
+  background: #fffafd;
+}
+
+#our-clients .carousel-control-next,
+#awards-achivement .carousel-control-next {
+  right: -10%;
+}
+
+#our-clients .carousel-control-prev,
+#awards-achivement .carousel-control-prev {
+  left: -10%;
+}
+
+#news-events h2::after,
+#our-clients h2::after,
+#awards-achivement h2::after {
+  content: "";
+  display: inherit;
+  margin: 10px auto 10px 26px;
+  width: 4px;
+  height: 27px;
+  background-color: #a8237f;
+}
+
+#news-events .title,
+#our-clients .title,
+#awards-achivement .title {
+  font-family: var(--title-font);
+  color: #a8237f;
+  font-size: 25px;
+}
+
+#news-events .achivement-items img,
+#our-clients .achivement-items img,
+#awards-achivement .achivement-items img {
+  width: 90%;
+  margin: 18px;
+}
+
+#business-unit h2 {
+  text-align: center;
+  color: var(--dark-color);
+  margin-bottom: 60px;
+}
+
+#business-unit h2::after {
+  content: "";
+  display: inherit;
+  margin: 10px auto;
+  width: 4px;
+  height: 27px;
+  background-color: #a8237f;
+}
+
+#business-unit .carousel-item img.slide-item {
+  width: 300px;
+  float: right;
+}
+
+#business-unit .carousel-inner h3 {
+  font-size: 35px;
+}
+
+#business-unit .carousel-inner .title {
+  font-size: 15px;
+  font-family: var(--title-font);
+  font-weight: bold;
+  color: #a8237f;
+  margin: 10px 0;
+}
+
+#business-unit .short-desc {
+  font-size: 14px;
+  font-family: var(--body-font);
+  font-weight: normal;
+  max-width: 400px;
+}
+
+.sectionFullHeight {
+  min-height: 600px;
+}
+
+.sectionFullHeight2 {
+  min-height: 450px;
+}
+
+.sectionHalfHeight {
+  min-height: 250px;
+}
+
+.curved-back {
+  position: absolute;
+  margin-top: -7%;
+}
+
+.curved-back2 {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+}
+
+#business-unit::after polygon {
+  fill: white;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img.full-width-slide {
+  width: 100%;
+}
+
+#social-icons {
+  position: relative;
+  top: -1px;
+}
+
+#social-icons img {
+  width: 16px;
+}
+
+#social-icons a {
+  margin: 0 7px;
+}
+
+#social-icons a.facebook img {
+  width: 8px !important;
+}
+
+#social-icons a.youtube img {
+  width: 18px !important;
+}
+
+#social-icons a.linkedin img {
+  width: 15px !important;
+}
+
+#social-icons a.instagram img {
+  width: 15px !important;
+}
+
+#header {
+  background: #fff;
+  min-width: 100%;
+}
+
+#header .topbar {
+  background: #a8237f;
+  width: 100%;
+}
+
+#header .topbar .topbarheight {
+  height: 40px;
+}
+
+#header .topbar span {
+  color: #fff;
+  font-family: var(--body-font);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#header .topbar span a {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#header .topbar span a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .topbar .topbarheight.align-items-center img {
+  width: 16px;
+}
+
+#header .topbar #search-icon i {
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+
+#header .headerbar {
+  max-height: 100px;
+  width: 100%;
+}
+
+#header .headerbar #brand-logo {
+  height: 70px;
+}
+
+#header .headerbar .navbar-white-style1 .navbar-nav .nav-link,
+#header .headerbar .navbar-white-style1 .navbar-brand {
+  color: #313538;
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#header .headerbar .navbar-white-style1 .brand-tabs .nav-link {
+  display: flex !important;
+  padding-top: 10px;
+}
+
+#header .headerbar .navbar-white-style1 .brand-tabs .nav-link img {
+  padding-right: 2px;
+  position: relative;
+  top: -10px;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+#header .headerbar .navbar-white-style1 .brand-tabs .nav-link.active img {
+  filter: none;
+  -webkit-filter: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+#header .headerbar .navbar-white-style1 .brand-tabs .nav-link:hover img {
+  filter: none;
+  -webkit-filter: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+#header .headerbar .navbar-white-style1 .nav-item {
+  margin: 0 3px;
+  padding: 24px 1px;
+  z-index: 9;
+  min-width: 80px;
+}
+
+#header .headerbar .navbar {
+  padding: 0;
+  z-index: 99;
+}
+
+@media (max-width: 575.98px) {
+  #awards-achivement .achivement-items img {
+    width: 126px;
+    margin: 18px;
+    float: left !important;
+  }
+
+  #myChart {
+    display: none !important;
+  }
+
+  .carousel-inner h5 {
+    text-align: left;
+  }
+}
+
+.third-level-submenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(184, 181, 181, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  left: 150px;
+  top: 35px;
+}
+
+.dropdown-item a,
+#dropdownMediaCornar-s a {
+  font-size: 12px !important;
+  padding-left: 0;
+  color: #313538 !important;
+}
+
+.third-level-submenu:hover {
+  display: inline-block;
+}
+
+#dropdownMediaCornar-s:hover>.third-level-submenu {
+  display: inline;
+}
+
+.full-width-col {
+  padding: 0 !important;
+  width: 100%;
+}
+
+.full-width-col .navbar {
+  padding: 0 15px 0 15px !important;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  border: outset 2px #f36f2c;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0;
+}
+
+.navbar-toggler span {
+  display: block;
+  background-color: #a8237f;
+  height: 3px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: relative;
+  left: 0;
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+  -webkit-transition: transform 0.35s ease-in-out;
+  -moz-transition: transform 0.35s ease-in-out;
+  -o-transition: transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: relative;
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px;
+  visibility: hidden;
+  background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: relative;
+  top: -10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 0.9;
+}
+
+.navbar-toggler.close-menu {
+  float: right;
+  border: none;
+}
+
+.list-group-item {
+  border: none !important;
+}
+
+.dropdown-item {
+  font-size: 12px !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #a8417f;
+  background-color: #ffdaf0;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.card-title a {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+.card-title a:hover {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+.nav .card {
+  margin-bottom: 0 !important;
+}
+
+.nav .card .card-body {
+  padding-bottom: 10px !important;
+  padding-top: 5px !important;
+}
+
+.nav .card .card-title {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.nav .card .card-title a {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+.nav .card .card-title a:hover {
+  color: #a8237f !important;
+  font-weight: bold;
+}
+
+.nav .card .list-group-flush .list-group-item {
+  padding: 5px;
+  font-size: 12px;
+}
+
+.nav .card .list-group-flush .list-group-item a {
+  text-decoration: none !important;
+  color: #000000;
+}
+
+.nav .card .list-group-flush .list-group-item a:hover {
+  color: #a8237f;
+  font-weight: bold;
+}
+
+.nav.brand-tabs {
+  display: block;
+}
+
+.nav.brand-tabs img {
+  width: 50px;
+}
+
+.nav-item.dropdown.brandMega>.dropdown-menu {
+  width: 71vw;
+  left: calc(0% - 17vw);
+  margin: 3px auto;
+  padding: 0;
+}
+
+.brandMega .full-width-content-tab,
+.brandMega .dropdown-submenu>.dropdown-menu {
+  width: 71vw;
+  padding: 25px;
+  margin-top: 0px !important;
+}
+
+.brandMega>.active {
+  background: transparent !important;
+}
+
+.nav.brand-tabs .nav-link.active {
+  color: #a8237f !important;
+  font-weight: bold !important;
+}
+
+.nav-main-item:hover {
+  background: #a8237f a;
+  background-color: #fff !important;
+  font-weight: bold !important;
+}
+
+.dropdown .dropdown-menu.show {
+  display: block;
+}
+
+.dropdown .dropdown-menu {
+  transform-origin: top center;
+}
+
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+  display: block;
+}
+
+.tab-content .card-columns .card {
+  background: #fdfdfd !important;
+}
+
+.nav.brands-tabs {
+  background: #fbfbfb !important;
+  justify-content: center;
+  display: flex;
+}
+
+.nav.brands-tabs .nav-main-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent !important;
+}
+
+.nav.brands-tabs .nav-main-item .brand-super-touch-logo,
+.nav.brands-tabs .nav-main-item .brand-blink-logo,
+.nav.brands-tabs .nav-main-item .brand-roots-logo,
+.nav.brands-tabs .nav-main-item .brand-orlee-logo {
+  max-height: 70px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: transform .5s ease;
+}
+
+.nav.brands-tabs .nav-main-item .brand-super-star-logo {
+  max-height: 90px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: transform .5s ease;
+}
+
+.nav.brands-tabs .nav-main-item .brand-blink-logo:hover,
+.nav.brands-tabs .nav-main-item .brand-roots-logo:hover,
+.nav.brands-tabs .nav-main-item .brand-orlee-logo:hover,
+.nav.brands-tabs .nav-main-item .brand-super-touch-logo:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.nav.brands-tabs .nav-main-item .brand-super-star-logo:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.nav.brands-tabs .nav-main-item .nav-link img.brand-ico {
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  /* Google Chrome & Safari 6+ */
+  transition: 0.3s ease-in-out;
+}
+
+.nav.brands-tabs .nav-main-item .nav-link:hover>img.brand-ico {
+  filter: none;
+  -webkit-filter: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+.nav.brands-tabs .nav-main-item .nav-link.active {
+  background: transparent !important;
+}
+
+.nav.brands-tabs .nav-main-item .nav-link.active img.brand-ico {
+  filter: none;
+  -webkit-filter: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+.nav.brands-tabs:hover {
+  background: transparent !important;
+}
+
+.nav.brands-tabs:hover .nav-link.active {
+  background: transparent !important;
+}
+
+@media (max-width: 767.98px) {
+  .nav .card .list-group-flush .list-group-item {
+    text-align: left;
+  }
+
+  .nav .card .card-body {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .dropdown.brandMega .container-fluid {
+    padding: 0 !important;
+  }
+
+  .brand-tabs img {
+    max-width: 30px;
+  }
+
+  #header .headerbar .navbar-white-style1 .nav-item {
+    padding: 0px 5px !important;
+    border-bottom: solid 1px #ffd5f2 !important;
+  }
+
+  #header .headerbar .navbar-white-style1 .brand-tabs .nav-link img {
+    top: -5px;
+  }
+
+  #header .headerbar .navbar-white-style1 .navbar-nav .nav-link {
+    font-size: 14px !important;
+  }
+
+  #header .headerbar .container {
+    max-width: 100% !important;
+  }
+
+  .masthead.sticky {
+    position: absolute !important;
+  }
+
+  .career section#main-banner .container-fluid {
+    background: #ffffffa8;
+  }
+
+  h2,
+  h3,
+  .title,
+  .short-desc,
+  .visit-link,
+  .card-date {
+    display: flow-root;
+    text-align: center !important;
+  }
+
+  h2::after,
+  h3::after {
+    margin: 0 auto !important;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    opacity: .2;
+  }
+
+  #main-banner .sectionFullHeight {
+    min-height: 300px !important;
+  }
+
+  #our-clients .carousel-control-next,
+  #awards-achivement .carousel-control-next {
+    right: 0;
+  }
+
+  #our-clients .carousel-control-prev,
+  #awards-achivement .carousel-control-prev {
+    left: 0;
+  }
+
+  .carousel-control-prev {
+    left: 0px;
+  }
+
+  .carousel-control-next {
+    right: 0px;
+  }
+
+  .navbar-nav.nav {
+    width: 100%;
+  }
+
+  .nav.brands-tabs {
+    max-width: 90px;
+    float: left;
+  }
+
+  .nav.brands-tabs .nav-link.active {
+    padding-left: 5px !important;
+  }
+
+  .brand-tab-content {
+    width: 65% !important;
+    float: right !important;
+    display: contents !important;
+  }
+
+  .nav-item.dropdown.brandMega>.dropdown-menu {
+    width: 90vw !important;
+  }
+
+  .nav-item {
+    padding: 4px 1px;
+  }
+
+  #business-unit {
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    margin-top: 30px !important;
+  }
+
+  #header .topbar #social-icons a {
+    margin: 0 7px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-inner h5 {
+    text-align: left;
+  }
+
+  .carousel-caption {
+    bottom: 10px;
+  }
+
+  .btn-focused {
+    font-size: 12px;
+  }
+
+  .navbar-collapse.show {
+    z-index: 9999999;
+    background: #fff;
+    padding: 5px 10px;
+  }
+
+  #header .headerbar .navbar-white-style1 .nav-item {
+    border-bottom: dotted 1px #a8237f;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: -35px;
+    right: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    transition: all 0.3s ease;
+    display: block;
+  }
+
+  .navbar-collapse.collapsing {
+    height: auto !important;
+    margin-right: 50%;
+    display: block;
+    transform: rotate(-15deg) translate(1px, -1px);
+  }
+
+  .navbar-collapse.show {
+    right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-indicators {
+    bottom: 30px;
+  }
+
+  .nav-item:hover,
+  .active-nav {
+    border-bottom: #ffc80a solid 3px;
+  }
+}
+
+section#main-banner {
+  background-color: #fff;
+  padding-top: 80px;
+}
+
+section#main-banner h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+  text-align: center;
+  color: #ffc80a;
+}
+
+section#main-banner h5 {
+  font-family: var(--title-font);
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+section#main-banner img {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.management section#main-banner {
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.management section#main-banner h1,
+.management section#main-banner h5 {
+  text-align: left;
+  margin-bottom: unset !important;
+}
+
+.management section#main-banner h5 {
+  font-weight: 300;
+}
+
+section#main-content .flot-right {
+  float: right;
+}
+
+section#main-content i.fas {
+  color: #a8237f;
+}
+
+section#main-content .title {
+  font-family: var(--title-font);
+  color: #a8237f;
+  font-size: 25px;
+}
+
+section#main-content h2 {
+  font-family: var(--title-font);
+  font-weight: bold;
+}
+
+section#management-main-content {
+  background-color: #1e0c1d;
+}
+
+section#management-main-content .profile-imgs {
+  min-width: 100%;
+  margin-top: -70px;
+}
+
+section#management-main-content .profile-imgs .profile-item {
+  float: left;
+  max-width: 110px;
+}
+
+section#management-main-content .profile-imgs .profile-item:hover {
+  border-bottom: 5px solid #ffc80a;
+}
+
+section#management-main-content .profile-imgs .active {
+  border-bottom: 5px solid #ffc80a;
+}
+
+section#management-main-content .quote {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 50px;
+}
+
+section#management-main-content h2 {
+  font-weight: bold;
+  font-family: var(--title-font);
+  line-height: 50px;
+}
+
+section#management-main-content .dazignation,
+section#management-main-content .quote,
+section#management-main-content h2,
+section#management-main-content .short-desc {
+  color: #fff;
+}
+
+section#management-main-content .title {
+  color: #ffc80a;
+  text-transform: uppercase;
+}
+
+section#management-main-content .profile-social-iconz {
+  margin: 15px auto;
+  width: 150px;
+}
+
+section#management-main-content .profile-social-iconz a {
+  margin: 0 10px;
+}
+
+section#company-overview h2 {
+  font-weight: bold;
+  font-family: var(--title-font);
+}
+
+section#vision-mission {
+  background-size: contain;
+}
+
+section#vision-mission h2 {
+  text-align: center;
+}
+
+section#vision-mission h2::after {
+  content: "";
+  display: inherit;
+  margin: 0px auto;
+  width: 4px;
+  height: 27px;
+  background-color: #a8237f;
+}
+
+section#vision-mission p {
+  text-align: center;
+}
+
+section#vision-mission .title {
+  text-align: right;
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+section#vision-mission .short-desc {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 20px;
+}
+
+section#vision-mission .cat-item img {
+  margin: 0 0 0 auto;
+  display: block;
+}
+
+section#vision-mission a.submit-btn {
+  background: #ffc80a;
+  border-color: #ffc80a;
+  padding: 4px 28px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+section#AboutAwardsAchivement .cert-img {
+  max-width: 300px;
+  width: 100%;
+}
+
+section#AboutAwardsAchivement h2 {
+  text-align: center;
+}
+
+section#AboutAwardsAchivement h2::after {
+  content: "";
+  display: inherit;
+  margin: 0px auto;
+  width: 4px;
+  height: 27px;
+  background-color: #a8237f;
+}
+
+section#AboutAwardsAchivement div.title {
+  color: #a8237f;
+  text-align: center;
+  font-family: var(--title-font);
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+section#AboutAwardsAchivement .short-desc {
+  font-size: 14px;
+  font-family: var(--body-font);
+  font-weight: normal;
+  max-width: 630px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.blog-details {
+  background-size: cover !important;
+  padding-top: 0px;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.blog-details h1,
+.blog-details h2,
+.blog-details h5 {
+  text-align: left;
+  line-height: 110%;
+}
+
+.blog-details h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+  color: #fff;
+}
+
+.blog-details h5 {
+  font-weight: 300;
+}
+
+.blog-details h2,
+.blog-details .title,
+.blog-details .short-desc {
+  color: #fff;
+}
+
+.blog-details .title {
+  font-weight: lighter;
+}
+
+.blog-details h1,
+.blog-details h2,
+.blog-details h5 {
+  text-align: left;
+  line-height: 110%;
+}
+
+.blog-details h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+  color: #fff;
+}
+
+.blog-details h5 {
+  font-weight: 300;
+}
+
+.blog-details h2,
+.blog-details .title,
+.blog-details .short-desc {
+  color: #fff;
+}
+
+.blog-details .title {
+  font-weight: lighter;
+}
+
+.contact section#main-banner,
+.super-star-3r section#main-banner,
+.press-ad section#main-banner,
+.tvc-av section#main-banner,
+.super-star-properties section#main-banner,
+.super-star-fan-limited section#main-banner,
+.roots section#main-banner,
+.orlee section#main-banner,
+.super-star section#main-banner,
+.blink section#main-banner,
+.super-touch section#main-banner,
+.bizz-solutions-ltd section#main-banner,
+.super-fone section#main-banner,
+.ssg-papers-ltd section#main-banner,
+.grupel-generator section#main-banner,
+.ssg-agro section#main-banner,
+.ssg-global section#main-banner,
+.ssg-elevator section#main-banner,
+.ssg-engineering section#main-banner,
+.professional-lightings section#main-banner,
+.super-star-distribution-limited section#main-banner,
+.super-star-renewable-energy-limited section#main-banner,
+.ir-bulb-co-limited section#main-banner,
+.super-star-electrical-accessories-limited section#main-banner,
+.super-star-electronics-limited section#main-banner,
+.awards-achievements section#main-banner,
+.media-center section#main-banner,
+.news-events section#main-banner,
+.csr section#main-banner,
+.business-unit section#main-banner {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 0px;
+}
+
+.contact section#main-banner h1,
+.contact section#main-banner h2,
+.contact section#main-banner h5,
+.super-star-3r section#main-banner h1,
+.super-star-3r section#main-banner h2,
+.super-star-3r section#main-banner h5,
+.press-ad section#main-banner h1,
+.press-ad section#main-banner h2,
+.press-ad section#main-banner h5,
+.tvc-av section#main-banner h1,
+.tvc-av section#main-banner h2,
+.tvc-av section#main-banner h5,
+.super-star-properties section#main-banner h1,
+.super-star-properties section#main-banner h2,
+.super-star-properties section#main-banner h5,
+.super-star-fan-limited section#main-banner h1,
+.super-star-fan-limited section#main-banner h2,
+.super-star-fan-limited section#main-banner h5,
+.roots section#main-banner h1,
+.roots section#main-banner h2,
+.roots section#main-banner h5,
+.orlee section#main-banner h1,
+.orlee section#main-banner h2,
+.orlee section#main-banner h5,
+.super-star section#main-banner h1,
+.super-star section#main-banner h2,
+.super-star section#main-banner h5,
+.blink section#main-banner h1,
+.blink section#main-banner h2,
+.blink section#main-banner h5,
+.super-touch section#main-banner h1,
+.super-touch section#main-banner h2,
+.super-touch section#main-banner h5,
+.bizz-solutions-ltd section#main-banner h1,
+.bizz-solutions-ltd section#main-banner h2,
+.bizz-solutions-ltd section#main-banner h5,
+.super-fone section#main-banner h1,
+.super-fone section#main-banner h2,
+.super-fone section#main-banner h5,
+.ssg-papers-ltd section#main-banner h1,
+.ssg-papers-ltd section#main-banner h2,
+.ssg-papers-ltd section#main-banner h5,
+.grupel-generator section#main-banner h1,
+.grupel-generator section#main-banner h2,
+.grupel-generator section#main-banner h5,
+.ssg-agro section#main-banner h1,
+.ssg-agro section#main-banner h2,
+.ssg-agro section#main-banner h5,
+.ssg-global section#main-banner h1,
+.ssg-global section#main-banner h2,
+.ssg-global section#main-banner h5,
+.ssg-elevator section#main-banner h1,
+.ssg-elevator section#main-banner h2,
+.ssg-elevator section#main-banner h5,
+.ssg-engineering section#main-banner h1,
+.ssg-engineering section#main-banner h2,
+.ssg-engineering section#main-banner h5,
+.professional-lightings section#main-banner h1,
+.professional-lightings section#main-banner h2,
+.professional-lightings section#main-banner h5,
+.super-star-distribution-limited section#main-banner h1,
+.super-star-distribution-limited section#main-banner h2,
+.super-star-distribution-limited section#main-banner h5,
+.super-star-renewable-energy-limited section#main-banner h1,
+.super-star-renewable-energy-limited section#main-banner h2,
+.super-star-renewable-energy-limited section#main-banner h5,
+.ir-bulb-co-limited section#main-banner h1,
+.ir-bulb-co-limited section#main-banner h2,
+.ir-bulb-co-limited section#main-banner h5,
+.super-star-electrical-accessories-limited section#main-banner h1,
+.super-star-electrical-accessories-limited section#main-banner h2,
+.super-star-electrical-accessories-limited section#main-banner h5,
+.super-star-electronics-limited section#main-banner h1,
+.super-star-electronics-limited section#main-banner h2,
+.super-star-electronics-limited section#main-banner h5,
+.awards-achievements section#main-banner h1,
+.awards-achievements section#main-banner h2,
+.awards-achievements section#main-banner h5,
+.media-center section#main-banner h1,
+.media-center section#main-banner h2,
+.media-center section#main-banner h5,
+.news-events section#main-banner h1,
+.news-events section#main-banner h2,
+.news-events section#main-banner h5,
+.csr section#main-banner h1,
+.csr section#main-banner h2,
+.csr section#main-banner h5,
+.business-unit section#main-banner h1,
+.business-unit section#main-banner h2,
+.business-unit section#main-banner h5 {
+  text-align: left;
+  line-height: 110%;
+}
+
+.contact section#main-banner h1,
+.super-star-3r section#main-banner h1,
+.press-ad section#main-banner h1,
+.tvc-av section#main-banner h1,
+.super-star-properties section#main-banner h1,
+.super-star-fan-limited section#main-banner h1,
+.roots section#main-banner h1,
+.orlee section#main-banner h1,
+.super-star section#main-banner h1,
+.blink section#main-banner h1,
+.super-touch section#main-banner h1,
+.bizz-solutions-ltd section#main-banner h1,
+.super-fone section#main-banner h1,
+.ssg-papers-ltd section#main-banner h1,
+.grupel-generator section#main-banner h1,
+.ssg-agro section#main-banner h1,
+.ssg-global section#main-banner h1,
+.ssg-elevator section#main-banner h1,
+.ssg-engineering section#main-banner h1,
+.professional-lightings section#main-banner h1,
+.super-star-distribution-limited section#main-banner h1,
+.super-star-renewable-energy-limited section#main-banner h1,
+.ir-bulb-co-limited section#main-banner h1,
+.super-star-electrical-accessories-limited section#main-banner h1,
+.super-star-electronics-limited section#main-banner h1,
+.awards-achievements section#main-banner h1,
+.media-center section#main-banner h1,
+.news-events section#main-banner h1,
+.csr section#main-banner h1,
+.business-unit section#main-banner h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact section#main-banner h5,
+.super-star-3r section#main-banner h5,
+.press-ad section#main-banner h5,
+.tvc-av section#main-banner h5,
+.super-star-properties section#main-banner h5,
+.super-star-fan-limited section#main-banner h5,
+.roots section#main-banner h5,
+.orlee section#main-banner h5,
+.super-star section#main-banner h5,
+.blink section#main-banner h5,
+.super-touch section#main-banner h5,
+.bizz-solutions-ltd section#main-banner h5,
+.super-fone section#main-banner h5,
+.ssg-papers-ltd section#main-banner h5,
+.grupel-generator section#main-banner h5,
+.ssg-agro section#main-banner h5,
+.ssg-elevator section#main-banner h5,
+.ssg-engineering section#main-banner h5,
+.professional-lightings section#main-banner h5,
+.super-star-distribution-limited section#main-banner h5,
+.super-star-renewable-energy-limited section#main-banner h5,
+.ir-bulb-co-limited section#main-banner h5,
+.super-star-electrical-accessories-limited section#main-banner h5,
+.super-star-electronics-limited section#main-banner h5,
+.awards-achievements section#main-banner h5,
+.media-center section#main-banner h5,
+.news-events section#main-banner h5,
+.csr section#main-banner h5,
+.business-unit section#main-banner h5 {
+  font-weight: 300;
+}
+
+.contact section#main-banner h2,
+.contact section#main-banner .title,
+.contact section#main-banner .short-desc,
+.super-star-3r section#main-banner h2,
+.super-star-3r section#main-banner .title,
+.super-star-3r section#main-banner .short-desc,
+.press-ad section#main-banner h2,
+.press-ad section#main-banner .title,
+.press-ad section#main-banner .short-desc,
+.tvc-av section#main-banner h2,
+.tvc-av section#main-banner .title,
+.tvc-av section#main-banner .short-desc,
+.super-star-properties section#main-banner h2,
+.super-star-properties section#main-banner .title,
+.super-star-properties section#main-banner .short-desc,
+.super-star-fan-limited section#main-banner h2,
+.super-star-fan-limited section#main-banner .title,
+.super-star-fan-limited section#main-banner .short-desc,
+.roots section#main-banner h2,
+.roots section#main-banner .title,
+.roots section#main-banner .short-desc,
+.orlee section#main-banner h2,
+.orlee section#main-banner .title,
+.orlee section#main-banner .short-desc,
+.super-star section#main-banner h2,
+.super-star section#main-banner .title,
+.super-star section#main-banner .short-desc,
+.blink section#main-banner h2,
+.blink section#main-banner .title,
+.blink section#main-banner .short-desc,
+.super-touch section#main-banner h2,
+.super-touch section#main-banner .title,
+.super-touch section#main-banner .short-desc,
+.bizz-solutions-ltd section#main-banner h2,
+.bizz-solutions-ltd section#main-banner .title,
+.bizz-solutions-ltd section#main-banner .short-desc,
+.super-fone section#main-banner h2,
+.super-fone section#main-banner .title,
+.super-fone section#main-banner .short-desc,
+.ssg-papers-ltd section#main-banner h2,
+.ssg-papers-ltd section#main-banner .title,
+.ssg-papers-ltd section#main-banner .short-desc,
+.grupel-generator section#main-banner h2,
+.grupel-generator section#main-banner .title,
+.grupel-generator section#main-banner .short-desc,
+.ssg-agro section#main-banner h2,
+.ssg-agro section#main-banner .title,
+.ssg-agro section#main-banner .short-desc,
+.ssg-global section#main-banner h2,
+.ssg-global section#main-banner .title,
+.ssg-global section#main-banner .short-desc,
+.ssg-elevator section#main-banner h2,
+.ssg-elevator section#main-banner .title,
+.ssg-elevator section#main-banner .short-desc,
+.ssg-engineering section#main-banner h2,
+.ssg-engineering section#main-banner .title,
+.ssg-engineering section#main-banner .short-desc,
+.professional-lightings section#main-banner h2,
+.professional-lightings section#main-banner .title,
+.professional-lightings section#main-banner .short-desc,
+.super-star-distribution-limited section#main-banner h2,
+.super-star-distribution-limited section#main-banner .title,
+.super-star-distribution-limited section#main-banner .short-desc,
+.super-star-renewable-energy-limited section#main-banner h2,
+.super-star-renewable-energy-limited section#main-banner .title,
+.super-star-renewable-energy-limited section#main-banner .short-desc,
+.ir-bulb-co-limited section#main-banner h2,
+.ir-bulb-co-limited section#main-banner .title,
+.ir-bulb-co-limited section#main-banner .short-desc,
+.super-star-electrical-accessories-limited section#main-banner h2,
+.super-star-electrical-accessories-limited section#main-banner .title,
+.super-star-electrical-accessories-limited section#main-banner .short-desc,
+.super-star-electronics-limited section#main-banner h2,
+.super-star-electronics-limited section#main-banner .title,
+.super-star-electronics-limited section#main-banner .short-desc,
+.awards-achievements section#main-banner h2,
+.awards-achievements section#main-banner .title,
+.awards-achievements section#main-banner .short-desc,
+.media-center section#main-banner h2,
+.media-center section#main-banner .title,
+.media-center section#main-banner .short-desc,
+.news-events section#main-banner h2,
+.news-events section#main-banner .title,
+.news-events section#main-banner .short-desc,
+.csr section#main-banner h2,
+.csr section#main-banner .title,
+.csr section#main-banner .short-desc,
+.business-unit section#main-banner h2,
+.business-unit section#main-banner .title,
+.business-unit section#main-banner .short-desc {
+  color: #fff;
+}
+
+.contact section#main-banner .title,
+.super-star-3r section#main-banner .title,
+.press-ad section#main-banner .title,
+.tvc-av section#main-banner .title,
+.super-star-properties section#main-banner .title,
+.super-star-fan-limited section#main-banner .title,
+.roots section#main-banner .title,
+.orlee section#main-banner .title,
+.super-star section#main-banner .title,
+.blink section#main-banner .title,
+.super-touch section#main-banner .title,
+.bizz-solutions-ltd section#main-banner .title,
+.super-fone section#main-banner .title,
+.ssg-papers-ltd section#main-banner .title,
+.grupel-generator section#main-banner .title,
+.ssg-agro section#main-banner .title,
+.ssg-global section#main-banner .title,
+.ssg-elevator section#main-banner .title,
+.ssg-engineering section#main-banner .title,
+.professional-lightings section#main-banner .title,
+.super-star-distribution-limited section#main-banner .title,
+.super-star-renewable-energy-limited section#main-banner .title,
+.ir-bulb-co-limited section#main-banner .title,
+.super-star-electrical-accessories-limited section#main-banner .title,
+.super-star-electronics-limited section#main-banner .title,
+.awards-achievements section#main-banner .title,
+.media-center section#main-banner .title,
+.news-events section#main-banner .title,
+.csr section#main-banner .title,
+.business-unit section#main-banner .title {
+  font-weight: lighter;
+}
+
+.contact section#business-into h5.title,
+.super-star-3r section#business-into h5.title,
+.press-ad section#business-into h5.title,
+.tvc-av section#business-into h5.title,
+.super-star-properties section#business-into h5.title,
+.super-star-fan-limited section#business-into h5.title,
+.roots section#business-into h5.title,
+.orlee section#business-into h5.title,
+.super-star section#business-into h5.title,
+.blink section#business-into h5.title,
+.super-touch section#business-into h5.title,
+.bizz-solutions-ltd section#business-into h5.title,
+.super-fone section#business-into h5.title,
+.ssg-papers-ltd section#business-into h5.title,
+.grupel-generator section#business-into h5.title,
+.ssg-agro section#business-into h5.title,
+.ssg-global section#business-into h5.title,
+.ssg-elevator section#business-into h5.title,
+.ssg-engineering section#business-into h5.title,
+.professional-lightings section#business-into h5.title,
+.super-star-distribution-limited section#business-into h5.title,
+.super-star-renewable-energy-limited section#business-into h5.title,
+.ir-bulb-co-limited section#business-into h5.title,
+.super-star-electrical-accessories-limited section#business-into h5.title,
+.super-star-electronics-limited section#business-into h5.title,
+.awards-achievements section#business-into h5.title,
+.media-center section#business-into h5.title,
+.news-events section#business-into h5.title,
+.csr section#business-into h5.title,
+.business-unit section#business-into h5.title {
+  color: #a8237f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact section#mission .mission-statement,
+.super-star-3r section#mission .mission-statement,
+.press-ad section#mission .mission-statement,
+.tvc-av section#mission .mission-statement,
+.super-star-properties section#mission .mission-statement,
+.super-star-fan-limited section#mission .mission-statement,
+.roots section#mission .mission-statement,
+.orlee section#mission .mission-statement,
+.super-star section#mission .mission-statement,
+.blink section#mission .mission-statement,
+.super-touch section#mission .mission-statement,
+.bizz-solutions-ltd section#mission .mission-statement,
+.super-fone section#mission .mission-statement,
+.ssg-papers-ltd section#mission .mission-statement,
+.grupel-generator section#mission .mission-statement,
+.ssg-agro section#mission .mission-statement,
+.ssg-global section#mission .mission-statement,
+.ssg-elevator section#mission .mission-statement,
+.ssg-engineering section#mission .mission-statement,
+.professional-lightings section#mission .mission-statement,
+.super-star-distribution-limited section#mission .mission-statement,
+.super-star-renewable-energy-limited section#mission .mission-statement,
+.ir-bulb-co-limited section#mission .mission-statement,
+.super-star-electrical-accessories-limited section#mission .mission-statement,
+.super-star-cables section#mission .mission-statement,
+.super-star-electronics-limited section#mission .mission-statement,
+.awards-achievements section#mission .mission-statement,
+.media-center section#mission .mission-statement,
+.news-events section#mission .mission-statement,
+.csr section#mission .mission-statement,
+.business-unit section#mission .mission-statement {
+  padding: 100px 50px 50px 100px;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.contact section#mission .mission-statement p.short-desc,
+.super-star-3r section#mission .mission-statement p.short-desc,
+.press-ad section#mission .mission-statement p.short-desc,
+.tvc-av section#mission .mission-statement p.short-desc,
+.super-star-properties section#mission .mission-statement p.short-desc,
+.super-star-fan-limited section#mission .mission-statement p.short-desc,
+.roots section#mission .mission-statement p.short-desc,
+.orlee section#mission .mission-statement p.short-desc,
+.super-star section#mission .mission-statement p.short-desc,
+.blink section#mission .mission-statement p.short-desc,
+.super-touch section#mission .mission-statement p.short-desc,
+.bizz-solutions-ltd section#mission .mission-statement p.short-desc,
+.super-fone section#mission .mission-statement p.short-desc,
+.ssg-papers-ltd section#mission .mission-statement p.short-desc,
+.grupel-generator section#mission .mission-statement p.short-desc,
+.ssg-agro section#mission .mission-statement p.short-desc,
+.ssg-global section#mission .mission-statement p.short-desc,
+.ssg-elevator section#mission .mission-statement p.short-desc,
+.ssg-engineering section#mission .mission-statement p.short-desc,
+.professional-lightings section#mission .mission-statement p.short-desc,
+.super-star-distribution-limited section#mission .mission-statement p.short-desc,
+.super-star-renewable-energy-limited section#mission .mission-statement p.short-desc,
+.ir-bulb-co-limited section#mission .mission-statement p.short-desc,
+.super-star-electrical-accessories-limited section#mission .mission-statement p.short-desc,
+.super-star-cables section#mission .mission-statement p.short-desc,
+.super-star-electronics-limited section#mission .mission-statement p.short-desc,
+.awards-achievements section#mission .mission-statement p.short-desc,
+.media-center section#mission .mission-statement p.short-desc,
+.news-events section#mission .mission-statement p.short-desc,
+.csr section#mission .mission-statement p.short-desc,
+.business-unit section#mission .mission-statement p.short-desc {
+  color: #fff;
+}
+
+.contact section#mission .mission-statement h3,
+.super-star-3r section#mission .mission-statement h3,
+.press-ad section#mission .mission-statement h3,
+.tvc-av section#mission .mission-statement h3,
+.super-star-properties section#mission .mission-statement h3,
+.super-star-fan-limited section#mission .mission-statement h3,
+.roots section#mission .mission-statement h3,
+.orlee section#mission .mission-statement h3,
+.super-star section#mission .mission-statement h3,
+.blink section#mission .mission-statement h3,
+.super-touch section#mission .mission-statement h3,
+.bizz-solutions-ltd section#mission .mission-statement h3,
+.super-fone section#mission .mission-statement h3,
+.ssg-papers-ltd section#mission .mission-statement h3,
+.grupel-generator section#mission .mission-statement h3,
+.ssg-agro section#mission .mission-statement h3,
+.ssg-global section#mission .mission-statement h3,
+.ssg-elevator section#mission .mission-statement h3,
+.ssg-engineering section#mission .mission-statement h3,
+.professional-lightings section#mission .mission-statement h3,
+.super-star-distribution-limited section#mission .mission-statement h3,
+.super-star-renewable-energy-limited section#mission .mission-statement h3,
+.ir-bulb-co-limited section#mission .mission-statement h3,
+.super-star-electrical-accessories-limited section#mission .mission-statement h3,
+.super-star-cables section#mission .mission-statement h3,
+.super-star-electronics-limited section#mission .mission-statement h3,
+.awards-achievements section#mission .mission-statement h3,
+.media-center section#mission .mission-statement h3,
+.news-events section#mission .mission-statement h3,
+.csr section#mission .mission-statement h3,
+.business-unit section#mission .mission-statement h3 {
+  color: #fff;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.contact section#mission .mission-statement .title,
+.super-star-3r section#mission .mission-statement .title,
+.press-ad section#mission .mission-statement .title,
+.tvc-av section#mission .mission-statement .title,
+.super-star-properties section#mission .mission-statement .title,
+.super-star-fan-limited section#mission .mission-statement .title,
+.roots section#mission .mission-statement .title,
+.orlee section#mission .mission-statement .title,
+.super-star section#mission .mission-statement .title,
+.blink section#mission .mission-statement .title,
+.super-touch section#mission .mission-statement .title,
+.bizz-solutions-ltd section#mission .mission-statement .title,
+.super-fone section#mission .mission-statement .title,
+.ssg-papers-ltd section#mission .mission-statement .title,
+.grupel-generator section#mission .mission-statement .title,
+.ssg-agro section#mission .mission-statement .title,
+.ssg-global section#mission .mission-statement .title,
+.ssg-elevator section#mission .mission-statement .title,
+.ssg-engineering section#mission .mission-statement .title,
+.professional-lightings section#mission .mission-statement .title,
+.super-star-distribution-limited section#mission .mission-statement .title,
+.super-star-renewable-energy-limited section#mission .mission-statement .title,
+.ir-bulb-co-limited section#mission .mission-statement .title,
+.super-star-electrical-accessories-limited section#mission .mission-statement .title,
+.super-star-cables section#mission .mission-statement .title,
+.super-star-electronics-limited section#mission .mission-statement .title,
+.awards-achievements section#mission .mission-statement .title,
+.media-center section#mission .mission-statement .title,
+.news-events section#mission .mission-statement .title,
+.csr section#mission .mission-statement .title,
+.business-unit section#mission .mission-statement .title {
+  color: #ffc80a;
+}
+
+.contact section#mission .margin-overlap,
+.super-star-3r section#mission .margin-overlap,
+.press-ad section#mission .margin-overlap,
+.tvc-av section#mission .margin-overlap,
+.super-star-properties section#mission .margin-overlap,
+.super-star-fan-limited section#mission .margin-overlap,
+.roots section#mission .margin-overlap,
+.orlee section#mission .margin-overlap,
+.super-star section#mission .margin-overlap,
+.blink section#mission .margin-overlap,
+.super-touch section#mission .margin-overlap,
+.bizz-solutions-ltd section#mission .margin-overlap,
+.super-fone section#mission .margin-overlap,
+.ssg-papers-ltd section#mission .margin-overlap,
+.grupel-generator section#mission .margin-overlap,
+.ssg-agro section#mission .margin-overlap,
+.ssg-global section#mission .margin-overlap,
+.ssg-elevator section#mission .margin-overlap,
+.ssg-engineering section#mission .margin-overlap,
+.professional-lightings section#mission .margin-overlap,
+.super-star-distribution-limited section#mission .margin-overlap,
+.super-star-renewable-energy-limited section#mission .margin-overlap,
+.ir-bulb-co-limited section#mission .margin-overlap,
+.super-star-electrical-accessories-limited section#mission .margin-overlap,
+.super-star-cables section#mission .margin-overlap,
+.super-star-electronics-limited section#mission .margin-overlap,
+.awards-achievements section#mission .margin-overlap,
+.media-center section#mission .margin-overlap,
+.news-events section#mission .margin-overlap,
+.csr section#mission .margin-overlap,
+.business-unit section#mission .margin-overlap {
+  margin-left: -40px;
+}
+
+.contact section#mission .topalign,
+.super-star-3r section#mission .topalign,
+.press-ad section#mission .topalign,
+.tvc-av section#mission .topalign,
+.super-star-properties section#mission .topalign,
+.super-star-fan-limited section#mission .topalign,
+.roots section#mission .topalign,
+.orlee section#mission .topalign,
+.super-star section#mission .topalign,
+.blink section#mission .topalign,
+.super-touch section#mission .topalign,
+.bizz-solutions-ltd section#mission .topalign,
+.super-fone section#mission .topalign,
+.ssg-papers-ltd section#mission .topalign,
+.grupel-generator section#mission .topalign,
+.ssg-agro section#mission .topalign,
+.ssg-global section#mission .topalign,
+.ssg-elevator section#mission .topalign,
+.ssg-engineering section#mission .topalign,
+.professional-lightings section#mission .topalign,
+.super-star-distribution-limited section#mission .topalign,
+.super-star-renewable-energy-limited section#mission .topalign,
+.ir-bulb-co-limited section#mission .topalign,
+.super-star-electrical-accessories-limited section#mission .topalign,
+.super-star-cables section#mission .topalign,
+.super-star-electronics-limited section#mission .topalign,
+.awards-achievements section#mission .topalign,
+.media-center section#mission .topalign,
+.news-events section#mission .topalign,
+.csr section#mission .topalign,
+.business-unit section#mission .topalign {
+  margin-top: -200px;
+  margin-left: -40px;
+}
+
+.contact section#our-partners,
+.super-star-3r section#our-partners,
+.press-ad section#our-partners,
+.tvc-av section#our-partners,
+.super-star-properties section#our-partners,
+.super-star-fan-limited section#our-partners,
+.roots section#our-partners,
+.orlee section#our-partners,
+.super-star section#our-partners,
+.blink section#our-partners,
+.super-touch section#our-partners,
+.bizz-solutions-ltd section#our-partners,
+.super-fone section#our-partners,
+.ssg-papers-ltd section#our-partners,
+.grupel-generator section#our-partners,
+.ssg-agro section#our-partners,
+.ssg-global section#our-partners,
+.ssg-elevator section#our-partners,
+.ssg-engineering section#our-partners,
+.professional-lightings section#our-partners,
+.super-star-distribution-limited section#our-partners,
+.super-star-renewable-energy-limited section#our-partners,
+.ir-bulb-co-limited section#our-partners,
+.super-star-electrical-accessories-limited section#our-partners,
+.super-star-electronics-limited section#our-partners,
+.awards-achievements section#our-partners,
+.media-center section#our-partners,
+.news-events section#our-partners,
+.csr section#our-partners,
+.business-unit section#our-partners {
+  background-color: #ffd40a;
+}
+
+.contact section#our-partners h2,
+.contact section#our-partners .title,
+.contact section#our-partners .short-desc,
+.super-star-3r section#our-partners h2,
+.super-star-3r section#our-partners .title,
+.super-star-3r section#our-partners .short-desc,
+.press-ad section#our-partners h2,
+.press-ad section#our-partners .title,
+.press-ad section#our-partners .short-desc,
+.tvc-av section#our-partners h2,
+.tvc-av section#our-partners .title,
+.tvc-av section#our-partners .short-desc,
+.super-star-properties section#our-partners h2,
+.super-star-properties section#our-partners .title,
+.super-star-properties section#our-partners .short-desc,
+.super-star-fan-limited section#our-partners h2,
+.super-star-fan-limited section#our-partners .title,
+.super-star-fan-limited section#our-partners .short-desc,
+.roots section#our-partners h2,
+.roots section#our-partners .title,
+.roots section#our-partners .short-desc,
+.orlee section#our-partners h2,
+.orlee section#our-partners .title,
+.orlee section#our-partners .short-desc,
+.super-star section#our-partners h2,
+.super-star section#our-partners .title,
+.super-star section#our-partners .short-desc,
+.blink section#our-partners h2,
+.blink section#our-partners .title,
+.blink section#our-partners .short-desc,
+.super-touch section#our-partners h2,
+.super-touch section#our-partners .title,
+.super-touch section#our-partners .short-desc,
+.bizz-solutions-ltd section#our-partners h2,
+.bizz-solutions-ltd section#our-partners .title,
+.bizz-solutions-ltd section#our-partners .short-desc,
+.super-fone section#our-partners h2,
+.super-fone section#our-partners .title,
+.super-fone section#our-partners .short-desc,
+.ssg-papers-ltd section#our-partners h2,
+.ssg-papers-ltd section#our-partners .title,
+.ssg-papers-ltd section#our-partners .short-desc,
+.grupel-generator section#our-partners h2,
+.grupel-generator section#our-partners .title,
+.grupel-generator section#our-partners .short-desc,
+.ssg-agro section#our-partners h2,
+.ssg-agro section#our-partners .title,
+.ssg-agro section#our-partners .short-desc,
+.ssg-global section#our-partners h2,
+.ssg-global section#our-partners .title,
+.ssg-global section#our-partners .short-desc,
+.ssg-elevator section#our-partners h2,
+.ssg-elevator section#our-partners .title,
+.ssg-elevator section#our-partners .short-desc,
+.ssg-engineering section#our-partners h2,
+.ssg-engineering section#our-partners .title,
+.ssg-engineering section#our-partners .short-desc,
+.professional-lightings section#our-partners h2,
+.professional-lightings section#our-partners .title,
+.professional-lightings section#our-partners .short-desc,
+.super-star-distribution-limited section#our-partners h2,
+.super-star-distribution-limited section#our-partners .title,
+.super-star-distribution-limited section#our-partners .short-desc,
+.super-star-renewable-energy-limited section#our-partners h2,
+.super-star-renewable-energy-limited section#our-partners .title,
+.super-star-renewable-energy-limited section#our-partners .short-desc,
+.ir-bulb-co-limited section#our-partners h2,
+.ir-bulb-co-limited section#our-partners .title,
+.ir-bulb-co-limited section#our-partners .short-desc,
+.super-star-electrical-accessories-limited section#our-partners h2,
+.super-star-electrical-accessories-limited section#our-partners .title,
+.super-star-electrical-accessories-limited section#our-partners .short-desc,
+.super-star-electronics-limited section#our-partners h2,
+.super-star-electronics-limited section#our-partners .title,
+.super-star-electronics-limited section#our-partners .short-desc,
+.awards-achievements section#our-partners h2,
+.awards-achievements section#our-partners .title,
+.awards-achievements section#our-partners .short-desc,
+.media-center section#our-partners h2,
+.media-center section#our-partners .title,
+.media-center section#our-partners .short-desc,
+.news-events section#our-partners h2,
+.news-events section#our-partners .title,
+.news-events section#our-partners .short-desc,
+.csr section#our-partners h2,
+.csr section#our-partners .title,
+.csr section#our-partners .short-desc,
+.business-unit section#our-partners h2,
+.business-unit section#our-partners .title,
+.business-unit section#our-partners .short-desc {
+  color: #000000;
+}
+
+.contact section#our-partners h2,
+.super-star-3r section#our-partners h2,
+.press-ad section#our-partners h2,
+.tvc-av section#our-partners h2,
+.super-star-properties section#our-partners h2,
+.super-star-fan-limited section#our-partners h2,
+.roots section#our-partners h2,
+.orlee section#our-partners h2,
+.super-star section#our-partners h2,
+.blink section#our-partners h2,
+.super-touch section#our-partners h2,
+.bizz-solutions-ltd section#our-partners h2,
+.super-fone section#our-partners h2,
+.ssg-papers-ltd section#our-partners h2,
+.grupel-generator section#our-partners h2,
+.ssg-agro section#our-partners h2,
+.ssg-global section#our-partners h2,
+.ssg-elevator section#our-partners h2,
+.ssg-engineering section#our-partners h2,
+.professional-lightings section#our-partners h2,
+.super-star-distribution-limited section#our-partners h2,
+.super-star-renewable-energy-limited section#our-partners h2,
+.ir-bulb-co-limited section#our-partners h2,
+.super-star-electrical-accessories-limited section#our-partners h2,
+.super-star-electronics-limited section#our-partners h2,
+.awards-achievements section#our-partners h2,
+.media-center section#our-partners h2,
+.news-events section#our-partners h2,
+.csr section#our-partners h2,
+.business-unit section#our-partners h2 {
+  margin-bottom: 20px;
+  line-height: 110%;
+}
+
+.contact section#our-partners h2::after,
+.super-star-3r section#our-partners h2::after,
+.press-ad section#our-partners h2::after,
+.tvc-av section#our-partners h2::after,
+.super-star-properties section#our-partners h2::after,
+.super-star-fan-limited section#our-partners h2::after,
+.roots section#our-partners h2::after,
+.orlee section#our-partners h2::after,
+.super-star section#our-partners h2::after,
+.blink section#our-partners h2::after,
+.super-touch section#our-partners h2::after,
+.bizz-solutions-ltd section#our-partners h2::after,
+.super-fone section#our-partners h2::after,
+.ssg-papers-ltd section#our-partners h2::after,
+.grupel-generator section#our-partners h2::after,
+.ssg-agro section#our-partners h2::after,
+.ssg-global section#our-partners h2::after,
+.ssg-elevator section#our-partners h2::after,
+.ssg-engineering section#our-partners h2::after,
+.professional-lightings section#our-partners h2::after,
+.super-star-distribution-limited section#our-partners h2::after,
+.super-star-renewable-energy-limited section#our-partners h2::after,
+.ir-bulb-co-limited section#our-partners h2::after,
+.super-star-electrical-accessories-limited section#our-partners h2::after,
+.super-star-electronics-limited section#our-partners h2::after,
+.awards-achievements section#our-partners h2::after,
+.media-center section#our-partners h2::after,
+.news-events section#our-partners h2::after,
+.csr section#our-partners h2::after,
+.business-unit section#our-partners h2::after {
+  content: "";
+  display: inherit;
+  margin: 10px auto auto 50px;
+  width: 4px;
+  height: 27px;
+  background-color: #a8237f;
+}
+
+.contact section#our-partners .title,
+.super-star-3r section#our-partners .title,
+.press-ad section#our-partners .title,
+.tvc-av section#our-partners .title,
+.super-star-properties section#our-partners .title,
+.super-star-fan-limited section#our-partners .title,
+.roots section#our-partners .title,
+.orlee section#our-partners .title,
+.super-star section#our-partners .title,
+.blink section#our-partners .title,
+.super-touch section#our-partners .title,
+.bizz-solutions-ltd section#our-partners .title,
+.super-fone section#our-partners .title,
+.ssg-papers-ltd section#our-partners .title,
+.grupel-generator section#our-partners .title,
+.ssg-agro section#our-partners .title,
+.ssg-global section#our-partners .title,
+.ssg-elevator section#our-partners .title,
+.ssg-engineering section#our-partners .title,
+.professional-lightings section#our-partners .title,
+.super-star-distribution-limited section#our-partners .title,
+.super-star-renewable-energy-limited section#our-partners .title,
+.ir-bulb-co-limited section#our-partners .title,
+.super-star-electrical-accessories-limited section#our-partners .title,
+.super-star-electronics-limited section#our-partners .title,
+.awards-achievements section#our-partners .title,
+.media-center section#our-partners .title,
+.news-events section#our-partners .title,
+.csr section#our-partners .title,
+.business-unit section#our-partners .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contact section#business-unit-products,
+.super-star-3r section#business-unit-products,
+.press-ad section#business-unit-products,
+.tvc-av section#business-unit-products,
+.super-star-properties section#business-unit-products,
+.super-star-fan-limited section#business-unit-products,
+.roots section#business-unit-products,
+.orlee section#business-unit-products,
+.super-star section#business-unit-products,
+.blink section#business-unit-products,
+.super-touch section#business-unit-products,
+.bizz-solutions-ltd section#business-unit-products,
+.super-fone section#business-unit-products,
+.ssg-papers-ltd section#business-unit-products,
+.grupel-generator section#business-unit-products,
+.ssg-agro section#business-unit-products,
+.ssg-global section#business-unit-products,
+.ssg-elevator section#business-unit-products,
+.ssg-engineering section#business-unit-products,
+.professional-lightings section#business-unit-products,
+.super-star-distribution-limited section#business-unit-products,
+.super-star-renewable-energy-limited section#business-unit-products,
+.ir-bulb-co-limited section#business-unit-products,
+.super-star-electrical-accessories-limited section#business-unit-products,
+.super-star-electronics-limited section#business-unit-products,
+.awards-achievements section#business-unit-products,
+.media-center section#business-unit-products,
+.news-events section#business-unit-products,
+.csr section#business-unit-products,
+.business-unit section#business-unit-products {
+  background-color: #fff;
+}
+
+.contact section#business-unit-products h2,
+.super-star-3r section#business-unit-products h2,
+.press-ad section#business-unit-products h2,
+.tvc-av section#business-unit-products h2,
+.super-star-properties section#business-unit-products h2,
+.super-star-fan-limited section#business-unit-products h2,
+.roots section#business-unit-products h2,
+.orlee section#business-unit-products h2,
+.super-star section#business-unit-products h2,
+.blink section#business-unit-products h2,
+.super-touch section#business-unit-products h2,
+.bizz-solutions-ltd section#business-unit-products h2,
+.super-fone section#business-unit-products h2,
+.ssg-papers-ltd section#business-unit-products h2,
+.grupel-generator section#business-unit-products h2,
+.ssg-agro section#business-unit-products h2,
+.ssg-global section#business-unit-products h2,
+.ssg-elevator section#business-unit-products h2,
+.ssg-engineering section#business-unit-products h2,
+.professional-lightings section#business-unit-products h2,
+.super-star-distribution-limited section#business-unit-products h2,
+.super-star-renewable-energy-limited section#business-unit-products h2,
+.ir-bulb-co-limited section#business-unit-products h2,
+.super-star-electrical-accessories-limited section#business-unit-products h2,
+.super-star-electronics-limited section#business-unit-products h2,
+.awards-achievements section#business-unit-products h2,
+.media-center section#business-unit-products h2,
+.news-events section#business-unit-products h2,
+.csr section#business-unit-products h2,
+.business-unit section#business-unit-products h2 {
+  text-align: center;
+  color: #3a5b74;
+  margin-bottom: 60px;
+}
+
+.contact section#business-unit-products h2::after,
+.super-star-3r section#business-unit-products h2::after,
+.press-ad section#business-unit-products h2::after,
+.tvc-av section#business-unit-products h2::after,
+.super-star-properties section#business-unit-products h2::after,
+.super-star-fan-limited section#business-unit-products h2::after,
+.roots section#business-unit-products h2::after,
+.orlee section#business-unit-products h2::after,
+.super-star section#business-unit-products h2::after,
+.blink section#business-unit-products h2::after,
+.super-touch section#business-unit-products h2::after,
+.bizz-solutions-ltd section#business-unit-products h2::after,
+.super-fone section#business-unit-products h2::after,
+.ssg-papers-ltd section#business-unit-products h2::after,
+.grupel-generator section#business-unit-products h2::after,
+.ssg-agro section#business-unit-products h2::after,
+.ssg-global section#business-unit-products h2::after,
+.ssg-elevator section#business-unit-products h2::after,
+.ssg-engineering section#business-unit-products h2::after,
+.professional-lightings section#business-unit-products h2::after,
+.super-star-distribution-limited section#business-unit-products h2::after,
+.super-star-renewable-energy-limited section#business-unit-products h2::after,
+.ir-bulb-co-limited section#business-unit-products h2::after,
+.super-star-electrical-accessories-limited section#business-unit-products h2::after,
+.super-star-electronics-limited section#business-unit-products h2::after,
+.awards-achievements section#business-unit-products h2::after,
+.media-center section#business-unit-products h2::after,
+.news-events section#business-unit-products h2::after,
+.csr section#business-unit-products h2::after,
+.business-unit section#business-unit-products h2::after {
+  content: "";
+  display: inherit;
+  margin: 10px auto;
+  width: 4px;
+  height: 27px;
+  background-color: #a8237f;
+}
+
+.contact section#business-unit-products .title,
+.super-star-3r section#business-unit-products .title,
+.press-ad section#business-unit-products .title,
+.tvc-av section#business-unit-products .title,
+.super-star-properties section#business-unit-products .title,
+.super-star-fan-limited section#business-unit-products .title,
+.roots section#business-unit-products .title,
+.orlee section#business-unit-products .title,
+.super-star section#business-unit-products .title,
+.blink section#business-unit-products .title,
+.super-touch section#business-unit-products .title,
+.bizz-solutions-ltd section#business-unit-products .title,
+.super-fone section#business-unit-products .title,
+.ssg-papers-ltd section#business-unit-products .title,
+.grupel-generator section#business-unit-products .title,
+.ssg-agro section#business-unit-products .title,
+.ssg-global section#business-unit-products .title,
+.ssg-elevator section#business-unit-products .title,
+.ssg-engineering section#business-unit-products .title,
+.professional-lightings section#business-unit-products .title,
+.super-star-distribution-limited section#business-unit-products .title,
+.super-star-renewable-energy-limited section#business-unit-products .title,
+.ir-bulb-co-limited section#business-unit-products .title,
+.super-star-electrical-accessories-limited section#business-unit-products .title,
+.super-star-electronics-limited section#business-unit-products .title,
+.awards-achievements section#business-unit-products .title,
+.media-center section#business-unit-products .title,
+.news-events section#business-unit-products .title,
+.csr section#business-unit-products .title,
+.business-unit section#business-unit-products .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contact section#business-unit-products .slide-item,
+.super-star-3r section#business-unit-products .slide-item,
+.press-ad section#business-unit-products .slide-item,
+.tvc-av section#business-unit-products .slide-item,
+.super-star-properties section#business-unit-products .slide-item,
+.super-star-fan-limited section#business-unit-products .slide-item,
+.roots section#business-unit-products .slide-item,
+.orlee section#business-unit-products .slide-item,
+.super-star section#business-unit-products .slide-item,
+.blink section#business-unit-products .slide-item,
+.super-touch section#business-unit-products .slide-item,
+.bizz-solutions-ltd section#business-unit-products .slide-item,
+.super-fone section#business-unit-products .slide-item,
+.ssg-papers-ltd section#business-unit-products .slide-item,
+.grupel-generator section#business-unit-products .slide-item,
+.ssg-agro section#business-unit-products .slide-item,
+.ssg-global section#business-unit-products .slide-item,
+.ssg-elevator section#business-unit-products .slide-item,
+.ssg-engineering section#business-unit-products .slide-item,
+.professional-lightings section#business-unit-products .slide-item,
+.super-star-distribution-limited section#business-unit-products .slide-item,
+.super-star-renewable-energy-limited section#business-unit-products .slide-item,
+.ir-bulb-co-limited section#business-unit-products .slide-item,
+.super-star-electrical-accessories-limited section#business-unit-products .slide-item,
+.super-star-electronics-limited section#business-unit-products .slide-item,
+.awards-achievements section#business-unit-products .slide-item,
+.media-center section#business-unit-products .slide-item,
+.news-events section#business-unit-products .slide-item,
+.csr section#business-unit-products .slide-item,
+.business-unit section#business-unit-products .slide-item {
+  margin: 0 auto;
+  display: block;
+}
+
+.contact section#business-unit-products .title,
+.contact section#business-unit-products a,
+.contact section#business-unit-products .short-desc,
+.super-star-3r section#business-unit-products .title,
+.super-star-3r section#business-unit-products a,
+.super-star-3r section#business-unit-products .short-desc,
+.press-ad section#business-unit-products .title,
+.press-ad section#business-unit-products a,
+.press-ad section#business-unit-products .short-desc,
+.tvc-av section#business-unit-products .title,
+.tvc-av section#business-unit-products a,
+.tvc-av section#business-unit-products .short-desc,
+.super-star-properties section#business-unit-products .title,
+.super-star-properties section#business-unit-products a,
+.super-star-properties section#business-unit-products .short-desc,
+.super-star-fan-limited section#business-unit-products .title,
+.super-star-fan-limited section#business-unit-products a,
+.super-star-fan-limited section#business-unit-products .short-desc,
+.roots section#business-unit-products .title,
+.roots section#business-unit-products a,
+.roots section#business-unit-products .short-desc,
+.orlee section#business-unit-products .title,
+.orlee section#business-unit-products a,
+.orlee section#business-unit-products .short-desc,
+.super-star section#business-unit-products .title,
+.super-star section#business-unit-products a,
+.super-star section#business-unit-products .short-desc,
+.blink section#business-unit-products .title,
+.blink section#business-unit-products a,
+.blink section#business-unit-products .short-desc,
+.super-touch section#business-unit-products .title,
+.super-touch section#business-unit-products a,
+.super-touch section#business-unit-products .short-desc,
+.bizz-solutions-ltd section#business-unit-products .title,
+.bizz-solutions-ltd section#business-unit-products a,
+.bizz-solutions-ltd section#business-unit-products .short-desc,
+.super-fone section#business-unit-products .title,
+.super-fone section#business-unit-products a,
+.super-fone section#business-unit-products .short-desc,
+.ssg-papers-ltd section#business-unit-products .title,
+.ssg-papers-ltd section#business-unit-products a,
+.ssg-papers-ltd section#business-unit-products .short-desc,
+.grupel-generator section#business-unit-products .title,
+.grupel-generator section#business-unit-products a,
+.grupel-generator section#business-unit-products .short-desc,
+.ssg-agro section#business-unit-products .title,
+.ssg-agro section#business-unit-products a,
+.ssg-agro section#business-unit-products .short-desc,
+.ssg-global section#business-unit-products .title,
+.ssg-global section#business-unit-products a,
+.ssg-global section#business-unit-products .short-desc,
+.ssg-elevator section#business-unit-products .title,
+.ssg-elevator section#business-unit-products a,
+.ssg-elevator section#business-unit-products .short-desc,
+.ssg-engineering section#business-unit-products .title,
+.ssg-engineering section#business-unit-products a,
+.ssg-engineering section#business-unit-products .short-desc,
+.professional-lightings section#business-unit-products .title,
+.professional-lightings section#business-unit-products a,
+.professional-lightings section#business-unit-products .short-desc,
+.super-star-distribution-limited section#business-unit-products .title,
+.super-star-distribution-limited section#business-unit-products a,
+.super-star-distribution-limited section#business-unit-products .short-desc,
+.super-star-renewable-energy-limited section#business-unit-products .title,
+.super-star-renewable-energy-limited section#business-unit-products a,
+.super-star-renewable-energy-limited section#business-unit-products .short-desc,
+.ir-bulb-co-limited section#business-unit-products .title,
+.ir-bulb-co-limited section#business-unit-products a,
+.ir-bulb-co-limited section#business-unit-products .short-desc,
+.super-star-electrical-accessories-limited section#business-unit-products .title,
+.super-star-electrical-accessories-limited section#business-unit-products a,
+.super-star-electrical-accessories-limited section#business-unit-products .short-desc,
+.super-star-electronics-limited section#business-unit-products .title,
+.super-star-electronics-limited section#business-unit-products a,
+.super-star-electronics-limited section#business-unit-products .short-desc,
+.awards-achievements section#business-unit-products .title,
+.awards-achievements section#business-unit-products a,
+.awards-achievements section#business-unit-products .short-desc,
+.media-center section#business-unit-products .title,
+.media-center section#business-unit-products a,
+.media-center section#business-unit-products .short-desc,
+.news-events section#business-unit-products .title,
+.news-events section#business-unit-products a,
+.news-events section#business-unit-products .short-desc,
+.csr section#business-unit-products .title,
+.csr section#business-unit-products a,
+.csr section#business-unit-products .short-desc,
+.business-unit section#business-unit-products .title,
+.business-unit section#business-unit-products a,
+.business-unit section#business-unit-products .short-desc {
+  text-align: center;
+}
+
+.contact section#business-unit-products .short-desc,
+.super-star-3r section#business-unit-products .short-desc,
+.press-ad section#business-unit-products .short-desc,
+.tvc-av section#business-unit-products .short-desc,
+.super-star-properties section#business-unit-products .short-desc,
+.super-star-fan-limited section#business-unit-products .short-desc,
+.roots section#business-unit-products .short-desc,
+.orlee section#business-unit-products .short-desc,
+.super-star section#business-unit-products .short-desc,
+.blink section#business-unit-products .short-desc,
+.super-touch section#business-unit-products .short-desc,
+.bizz-solutions-ltd section#business-unit-products .short-desc,
+.super-fone section#business-unit-products .short-desc,
+.ssg-papers-ltd section#business-unit-products .short-desc,
+.grupel-generator section#business-unit-products .short-desc,
+.ssg-agro section#business-unit-products .short-desc,
+.ssg-global section#business-unit-products .short-desc,
+.ssg-elevator section#business-unit-products .short-desc,
+.ssg-engineering section#business-unit-products .short-desc,
+.professional-lightings section#business-unit-products .short-desc,
+.super-star-distribution-limited section#business-unit-products .short-desc,
+.super-star-renewable-energy-limited section#business-unit-products .short-desc,
+.ir-bulb-co-limited section#business-unit-products .short-desc,
+.super-star-electrical-accessories-limited section#business-unit-products .short-desc,
+.super-star-electronics-limited section#business-unit-products .short-desc,
+.awards-achievements section#business-unit-products .short-desc,
+.media-center section#business-unit-products .short-desc,
+.news-events section#business-unit-products .short-desc,
+.csr section#business-unit-products .short-desc,
+.business-unit section#business-unit-products .short-desc {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.contact section#business-unit-products .visit-link,
+.super-star-3r section#business-unit-products .visit-link,
+.press-ad section#business-unit-products .visit-link,
+.tvc-av section#business-unit-products .visit-link,
+.super-star-properties section#business-unit-products .visit-link,
+.super-star-fan-limited section#business-unit-products .visit-link,
+.roots section#business-unit-products .visit-link,
+.orlee section#business-unit-products .visit-link,
+.super-star section#business-unit-products .visit-link,
+.blink section#business-unit-products .visit-link,
+.super-touch section#business-unit-products .visit-link,
+.bizz-solutions-ltd section#business-unit-products .visit-link,
+.super-fone section#business-unit-products .visit-link,
+.ssg-papers-ltd section#business-unit-products .visit-link,
+.grupel-generator section#business-unit-products .visit-link,
+.ssg-agro section#business-unit-products .visit-link,
+.ssg-global section#business-unit-products .visit-link,
+.ssg-elevator section#business-unit-products .visit-link,
+.ssg-engineering section#business-unit-products .visit-link,
+.professional-lightings section#business-unit-products .visit-link,
+.super-star-distribution-limited section#business-unit-products .visit-link,
+.super-star-renewable-energy-limited section#business-unit-products .visit-link,
+.ir-bulb-co-limited section#business-unit-products .visit-link,
+.super-star-electrical-accessories-limited section#business-unit-products .visit-link,
+.super-star-electronics-limited section#business-unit-products .visit-link,
+.awards-achievements section#business-unit-products .visit-link,
+.media-center section#business-unit-products .visit-link,
+.news-events section#business-unit-products .visit-link,
+.csr section#business-unit-products .visit-link,
+.business-unit section#business-unit-products .visit-link {
+  text-align: center;
+  display: block;
+}
+
+.career #main-banner::before {
+  background: transparent !important;
+}
+
+.career section#main-banner {
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.career section#main-banner h1,
+.career section#main-banner h2,
+.career section#main-banner h5 {
+  text-align: left;
+  margin-bottom: unset !important;
+  line-height: 110%;
+}
+
+.career section#main-banner h5 {
+  font-weight: 300;
+}
+
+.career section#main-banner .title {
+  font-weight: bold;
+}
+
+.career section#drop-cv {
+  background-color: #fbfbfb;
+}
+
+.career section#e-catagolgs h2,
+.career section#drop-cv h2,
+.career section#career-benifit h2 {
+  text-align: center;
+}
+
+.career section#e-catagolgs h2::after,
+.career section#drop-cv h2::after,
+.career section#career-benifit h2::after {
+  content: "";
+  display: inherit;
+  margin: 0px auto;
+  width: 4px;
+  height: 27px;
+  background-color: #a8237f;
+}
+
+.career section#e-catagolgs p,
+.career section#drop-cv p,
+.career section#career-benifit p {
+  text-align: center;
+}
+
+.career section#e-catagolgs .title,
+.career section#drop-cv .title,
+.career section#career-benifit .title {
+  text-align: center;
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.career section#e-catagolgs .short-desc,
+.career section#drop-cv .short-desc,
+.career section#career-benifit .short-desc {
+  margin-top: 10px;
+}
+
+.career section#e-catagolgs .cat-item img,
+.career section#drop-cv .cat-item img,
+.career section#career-benifit .cat-item img {
+  margin: 0 auto;
+  display: block;
+}
+
+#management-main-content .tab-pane.active img {
+  width: 400px;
+  object-fit: cover;
+  max-height: 550px;
+  object-position: 34% 3%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.sticky+#layout-content {
+  padding-top: 131px;
+}
+
+.home .pagination {
+  display: none !important;
+}
+
+.content-img {
+  max-width: 450px;
+  float: right;
+}
+
+/*===custom css===*/
+.carousel_button>i {
+  font-size: 3rem;
+  color: #a8237f;
+}
+.section-title{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+.section-title::after {
+  content: "" !important;
+  position: absolute !important;
+  background: var(--secondary-color) !important;
+  width: 100px !important;
+  height: 3px !important;
+  margin: auto !important;
+  bottom: -2px;
+}
+.client-title{
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+
+/*===custom css===*/
