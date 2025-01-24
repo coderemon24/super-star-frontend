@@ -15,6 +15,15 @@ h6 {
   font-weight: 100;
 }
 
+:root{
+  --primary-color: #a8237f;
+  --secondary-color: #FFD700;
+  --dark-color: #1e0c1d;
+  --light-color: #fff;
+  --title-font: 'Montserrat', sans-serif;
+  --body-font: 'Poppins', sans-serif;
+}
+
 .mt-10 {
   margin-top: 55px;
 }
