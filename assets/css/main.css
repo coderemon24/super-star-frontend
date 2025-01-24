@@ -639,12 +639,13 @@ h2 {
 }
 
 #business-unit .carousel-item img.slide-item {
-  width: 300px;
+  width: 100%;
   float: right;
 }
 
 #business-unit .carousel-inner h3 {
   font-size: 35px;
+  font-weight: 500;
 }
 
 #business-unit .carousel-inner .title {
