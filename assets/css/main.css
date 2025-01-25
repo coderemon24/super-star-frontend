@@ -791,8 +791,9 @@ h2 {
 }
 
 #header .headerbar {
-  max-height: 100px;
+  min-height: 87px;
   width: 100%;
+  transition: 0.25s linear;
 }
 
 #header .headerbar #brand-logo {
@@ -2848,6 +2849,8 @@ section#AboutAwardsAchivement .short-desc {
   top: 0;
   width: 100%;
   z-index: 9999;
+  box-shadow: 0px 1px 7px 2px #0000003b;
+  padding: 6px 0;
 }
 
 .sticky+#layout-content {
