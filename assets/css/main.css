@@ -599,9 +599,6 @@ h2 {
   font-weight: bold !important;
 }
 
-.nav-link:hover {
-  font-weight: bold !important;
-}
 
 #news-events {
   background: #fbfbfb;
@@ -1358,10 +1355,6 @@ h2 {
     bottom: 30px;
   }
 
-  .nav-item:hover,
-  .active-nav {
-    border-bottom: #ffc80a solid 3px;
-  }
 }
 
 section#main-banner {
@@ -2898,6 +2891,29 @@ section#AboutAwardsAchivement .short-desc {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
+a.f_link:after {
+  content: "";
+  position: absolute;
+  height: 1.5px;
+  width: 0%;
+  background: #ababab;
+  left: 0;
+  bottom: 0px;
+  transition: .25s linear;
+}
+a.f_link {
+  position: relative;
+  text-decoration: none;
+}
+a.f_link:hover:after {
+  width: 100%;
+}
+a.f_link:hover {
+  color: #c8c8c8;
+}
+.navbar_link {
+  font-family: var(--body-font);
+  font-weight: 400 !important;
+}
 
 /*===custom css===*/
