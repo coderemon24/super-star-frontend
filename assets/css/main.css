@@ -330,7 +330,7 @@ section#newsletter .submit-btn {
 }
 
 footer {
-  background-color: #1e0c1d;
+  background-color: var(--dark-color);
 }
 
 footer h6 {
@@ -2917,6 +2917,38 @@ a.f_link:hover {
 .navbar_link {
   font-family: var(--body-font);
   font-weight: 400 !important;
+}
+a.visit-link {
+  background: var(--secondary-color);
+  padding: 8px 20px;
+  border-radius: 30px;
+  color: var(--dark-color);
+  text-decoration: none;
+  font-family: var(--body-font);
+  font-weight: 400;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+}
+
+a.visit-link:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  background: var(--light-color);
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: .2s linear;
+}
+
+a.visit-link:hover:before {
+  width: 100%;
+}
+.visit-link span{
+  position: relative;
+  z-index: 9;
 }
 
 /*===custom css===*/
