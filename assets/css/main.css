@@ -1,10 +1,10 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --primary-color: #a8237f;
   --secondary-color: #FFD700;
   --dark-color: #212529;
@@ -293,12 +293,40 @@ section#newsletter ::placeholder {
 
 section#newsletter .submit-btn {
   margin-top: 25px;
-  background: #ffc80a;
-  border-color: #ffc80a;
-  border-radius: 17px;
-  padding: 4px 28px;
-  border: none;
+  border-radius: 30px;
+  padding: 9px 30px;
   color: white;
+  font-family: var(--body-font);
+  font-size: 16px;
+  letter-spacing: 4px;
+  border: 2px solid #fff;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  transition: .2s linear;
+}
+.submit-btn span{
+  position: relative;
+  z-index: 2;
+}
+.submit-btn:before {
+  content: "";
+  position: absolute;
+  background: orange;
+  height: 100%;
+  width: 0%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  transition: 0.25s linear;
+}
+.submit-btn:hover {
+  border-color: orange !important;
+  color: #fff;
+}
+.submit-btn:hover:before {
+  width: 100%;
 }
 
 footer {
@@ -2847,12 +2875,14 @@ section#AboutAwardsAchivement .short-desc {
   font-size: 3rem;
   color: #a8237f;
 }
-.section-title{
+
+.section-title {
   position: relative;
   display: flex;
   justify-content: center;
   font-weight: 800;
 }
+
 .section-title::after {
   content: "" !important;
   position: absolute !important;
@@ -2862,7 +2892,8 @@ section#AboutAwardsAchivement .short-desc {
   margin: auto !important;
   bottom: -2px;
 }
-.client-title{
+
+.client-title {
   font-size: 32px;
   text-transform: uppercase;
   margin-bottom: 30px;
