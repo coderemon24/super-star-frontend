@@ -1037,15 +1037,16 @@ h2 {
 }
 
 .nav-item.dropdown.brandMega>.dropdown-menu {
-  width: 71vw;
+  width: 100%;
   left: calc(0% - 17vw);
   margin: 3px auto;
   padding: 0;
+  position: absolute;
 }
 
 .brandMega .full-width-content-tab,
 .brandMega .dropdown-submenu>.dropdown-menu {
-  width: 71vw;
+  width: 56vw;
   padding: 25px;
   margin-top: 0px !important;
 }
@@ -1084,8 +1085,10 @@ h2 {
 
 .nav.brands-tabs {
   background: #fbfbfb !important;
-  justify-content: center;
-  display: flex;
+  display: flex !important;!i;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 56vw;
 }
 
 .nav.brands-tabs .nav-main-item {
@@ -1158,7 +1161,7 @@ h2 {
 }
 
 .nav.brands-tabs:hover {
-  background: transparent !important;
+  background: #ffffff !important;
 }
 
 .nav.brands-tabs:hover .nav-link.active {
@@ -2949,6 +2952,9 @@ a.visit-link:hover:before {
 .visit-link span{
   position: relative;
   z-index: 9;
+}
+.brand-ico{
+  width: 16rem;
 }
 
 /*===custom css===*/
