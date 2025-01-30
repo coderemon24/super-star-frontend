@@ -2956,5 +2956,9 @@ a.visit-link:hover:before {
 .brand-ico{
   width: 16rem;
 }
+.icon {
+  width: 60px;
+  margin: auto;
+}
 
 /*===custom css===*/
